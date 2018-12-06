@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import logo from './logo.svg';
+import logo from "./logo.svg";
 import "./Logo.scss";
 import "./main.scss";
 
@@ -7,7 +7,6 @@ class App extends Component {
   render() {
     return (
       <section className="container-fluid image-lukasz">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <div className="row">
           <div className="container">
             <div className="row">
@@ -23,8 +22,8 @@ class App extends Component {
             </div>
             <div className="row">
               <div className="left-box col-4">
-              <div className="title-box justify-content-center">
-                <h5 className="title ">Jestę frontendowcę</h5>
+                <div className="title-box justify-content-center">
+                  <h5 className="title ">Jestę frontendowcę</h5>
                 </div>
                 <div className="inside-text">
                   <h3>
@@ -44,10 +43,16 @@ class App extends Component {
                   </ul>
                 </div>
               </div>
-              <div className="js"><span><strong className="js-text">JS</strong></span></div>
+              <div className="js">
+                <span>
+                  <strong className="js-text">JS</strong>
+                </span>
+              </div>
             </div>
             <div className="right-box col-5 float-right">
-            
+              <div className="react-logo">
+                <img src={logo} className="App-logo" alt="logo" />
+              </div>
             </div>
           </div>
         </div>
