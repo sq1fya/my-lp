@@ -20,9 +20,9 @@ class App extends Component {
                 </nav>
               </header>
             </div>
-            <div className="row">
+            <div className="row d-flex align-items-end ">
               <div className="left-box col-4">
-                <div className="title-box justify-content-center">
+                <div className="title-box justify-content-center sticky-top">
                   <h5 className="title ">Jestę frontendowcę</h5>
                 </div>
                 <div className="inside-text">
@@ -30,7 +30,7 @@ class App extends Component {
                     <strong>Cześć!</strong>
                   </h3>
                   <p>
-                    Jestem web developerem i rozwijam się na ścieżce javascriptu
+                    Jestem web developerem i&nbsp;rozwijam się na ścieżce javascriptu
                   </p>
                   <hr />
                   <h3>
@@ -43,9 +43,9 @@ class App extends Component {
                   </ul>
                 </div>
               </div>
-              <div className="js">
+              <div className="js sticky-top">
                 <span>
-                  <strong className="js-text">JS</strong>
+                  <strong className="js-text ">JS</strong>
                 </span>
               </div>
             </div>
