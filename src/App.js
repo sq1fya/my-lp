@@ -49,9 +49,11 @@ class App extends Component {
                 </span>
               </div>
             </div>
-            <div className="right-box col-5 float-right">
-              <div className="react-logo">
-                <img src={logo} className="App-logo" alt="logo" />
+            <div>
+                <div className="react-logo float-right">
+                  <img src={logo} className="App-logo sticky-top" alt="logo" />
+                </div>
+              <div className="right-box col-4 float-right">
               </div>
             </div>
           </div>
