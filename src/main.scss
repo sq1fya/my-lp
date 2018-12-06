@@ -44,7 +44,7 @@ button {
 .left-box .title-box .title {
   background-color: #BD3C8A;
   text-align: center;
-  padding: 12px;
+  padding: 15px;
   margin-top: -30px;
 }
 
@@ -66,15 +66,12 @@ button {
 .title-box {
   margin: 0 auto;
 }
-.title {
-  padding: 50px;
-}
 
 // common part end
 
-.react-logo {
-  margin-left: -280px;
-  margin-top: -115px;
+.right-box .react-logo {
+  margin-left: 140px;
+  margin-top: -132px;
 }
 
 .right-box {
@@ -83,6 +80,7 @@ button {
   outline: 1px solid #fff;
   outline-offset: -10px;
   color: white;
+  margin-top: -70px;
 }
 
 .right-box .inside-text {
@@ -90,14 +88,14 @@ button {
 }
 
 .right-box .title-box {
-  max-width: 160px;
+  max-width: 240px;
 }
 
 
 .right-box .title-box .title {
   background-color: #114c7f;
   text-align: center;
-  padding: 12px;
+  padding: 15px;
   margin-top: -30px;
 }
 
