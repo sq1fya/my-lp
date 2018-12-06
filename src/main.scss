@@ -8,6 +8,10 @@ hr {
 
 
 // >>>>>>>>>>> header <<<<<<<<<<
+.nav-bar ul {
+  color: #114c7f;
+  list-style-type: none;
+}
 .image-lukasz {
   background-image: url("./gfx/lukasz.png");
   height: 857px;
@@ -25,31 +29,33 @@ hr {
 }
 
 .inside-text {
-  padding: 30px;
+  padding: 30px 50px 30px 30px;
+
 }
 
 .row .left-box .title-box {
-  max-width: 250px;
+  max-width: 200px;
   margin: 0 auto;
 }
 
 .left-box .title-box .title {
   background-color: #BD3C8A;
   text-align: center;
-  // max-width: 250px;
-  padding: 20px;
+  padding: 8px;
   margin-top: -30px;
 }
 
 .js {
   background-color: #f2da64;
   color: #2E2F32;
-  font-size: 40px;
-  height: 70px;
-  width: 70px;
-  margin: -35px;
+  font-size: 65px;
+  height: 90px;
+  width: 90px;
+  margin: -45px;
 }
-.js-logo-box{
+
+.inside-text ul {
+  list-style-type: none;
 }
 
 .right-box {

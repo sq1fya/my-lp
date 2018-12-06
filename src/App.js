@@ -12,10 +12,10 @@ class App extends Component {
             <div className="row">
               <header>
                 <div className="col" />
-                <nav>
-                  <ul>
-                    <li>Umiejętności</li>
-                    <li>Kontakt</li>
+                <nav className="nav-bar">
+                  <ul className="list-group">
+                    <li><strong>Umiejętności</strong></li>
+                    <li><strong>Kontakt</strong> </li>
                   </ul>
                 </nav>
               </header>
@@ -23,27 +23,27 @@ class App extends Component {
             <div className="row d-flex align-items-end ">
               <div className="left-box col-4">
                 <div className="title-box justify-content-center sticky-top">
-                  <h5 className="title ">Jestę frontendowcę</h5>
+                  <h6 className="title "><strong>Jestę frontendowcę</strong></h6>
                 </div>
                 <div className="inside-text">
                   <h3>
                     <strong>Cześć!</strong>
                   </h3>
-                  <p>
+                  <p className="mb-auto p-3">
                     Jestem web developerem i&nbsp;rozwijam się na ścieżce javascriptu
                   </p>
                   <hr className="border-white" />
                   <h3>
                     <strong>Mocne strony:</strong>
                   </h3>
-                  <ul>
-                    <li>- React</li>
-                    <li>- Javascript</li>
-                    <li>- RWD</li>
+                  <ul className="list-group mb-auto p-3">
+                    <li className="">- React</li>
+                    <li className="">- Javascript</li>
+                    <li className="">- RWD</li>
                   </ul>
                 </div>
               </div>
-              <div className="js sticky-top mr-auto p-3">
+              <div className="js sticky-top mr-auto p-2">
                 <span className="js-logo-box ">
                   <strong>JS</strong>
                 </span>
