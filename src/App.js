@@ -12,46 +12,45 @@ class App extends Component {
             <div className="row justify-content-end">
               <header>
                 <div className="col ">
-                <nav className="nav-bar ">
-                  <ul className="nav ">
-                    <li className="nav-item">
-                      <a className="nav-link" href="#"><strong>Umiejętności</strong></a>
-                    </li>
-                    <li>
-                      <a className="nav-link" href="#"><strong>Kontakt</strong></a>
-                    </li>
-                  </ul>
-                </nav>
+                  <nav className="nav-bar ">
+                    <ul className="nav ">
+                      <li className="nav-item">
+                        <a className="nav-link font-weight-bold" href="#">
+                          Umiejętności
+                        </a>
+                      </li>
+                      <li>
+                        <a className="nav-link font-weight-bold" href="#">
+                          Kontakt
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
                 </div>
               </header>
             </div>
             <div className="row d-flex align-items-end">
               <div className="left-box col-4">
                 <div className="title-box justify-content-center sticky-top">
-                  <h6 className="title "><strong>Jestę frontendowcę</strong></h6>
+                  <h6 className="title font-weight-bold">Jestę frontendowcę</h6>
                 </div>
                 <div className="inside-text">
-                  <h3>
-                    <strong>Cześć!</strong>
-                  </h3>
-                  <p className="mb-auto p-3">
-                    Jestem web developerem i&nbsp;rozwijam się na ścieżce javascriptu
+                  <h3 className="font-weight-bold">Cześć!</h3>
+                  <p className="">
+                    Jestem web developerem i&nbsp;rozwijam się na ścieżce
+                    javascriptu
                   </p>
                   <hr className="border-white" />
-                  <h3>
-                    <strong>Mocne strony:</strong>
-                  </h3>
-                  <ul className="list-group mb-auto p-3">
+                  <h3 className="font-weight-bold">Mocne strony:</h3>
+                  <ul className="list-group">
                     <li className="">- React</li>
                     <li className="">- Javascript</li>
                     <li className="">- RWD</li>
                   </ul>
                 </div>
               </div>
-              <div className="js sticky-top mr-auto p-2">
-                <span className="js-logo-box ">
-                  <strong>JS</strong>
-                </span>
+              <div className="js sticky-top mr-auto p-3 font-weight-bold">
+                JS
               </div>
             </div>
             <div className="right-box col-5 float-right position-relative">
@@ -59,15 +58,13 @@ class App extends Component {
                 <img src={logo} className="App-logo sticky-top" alt="logo" />
               </div>
               <div className="title-box justify-content-center">
-                <h6 className="title sticky-top"><strong>Jestę developerę</strong></h6>
+                <h6 className="title sticky-top font-weight-bold">
+                  Jestę developerę
+                </h6>
               </div>
-              <div className="inside-text">
-                <h3>
-                  <strong>Łukasz Górecki</strong>
-                </h3>
-                <p className="mb-auto">
-                  Junior frontend developer
-                </p>
+              <div className="inside-text mt-auto p-5">
+                <h3 className="font-weight-bold">Łukasz Górecki</h3>
+                <p className="mb-auto">Junior frontend developer</p>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 // >>>>>>>>>>> global <<<<<<<<<<
 hr {
-  border-top: 1px solid rgba(255,255,255,.9);
+  border-top: 1px solid rgba(255, 255, 255, 0.9);
 }
 
 button {
@@ -9,11 +9,10 @@ button {
 
 // >>>>>>>>>>> global end <<<<<<<<<<
 
-
 // >>>>>>>>>>> header <<<<<<<<<<
-.nav-bar ul {
+.nav-bar ul li {
   color: #114c7f;
-  list-style-type: none;
+  font-size: 16px;
 }
 
 .image-lukasz {
@@ -34,7 +33,6 @@ button {
 
 .inside-text {
   padding: 30px 50px 30px 30px;
-
 }
 
 .row .left-box .title-box {
@@ -42,23 +40,43 @@ button {
 }
 
 .left-box .title-box .title {
-  background-color: #BD3C8A;
+  background-color: #bd3c8a;
   text-align: center;
   padding: 15px;
   margin-top: -30px;
+  font-size: 16px;
+}
+
+.left-box .inside-text {
+  font-size: 22px;
+  padding: 40px 50px 70px 50px;
+  line-height: 22px;
+}
+.left-box .inside-text h3 {
+  font-size: 29px;
+}
+.left-box .inside-text h3:nth-last-of-type(1) {
+  margin-top: 30px;
+}
+
+.left-box .inside-text p {
+  margin-bottom: 30px;
+  font-family: "Roboto Slab-light", serif;
+}
+
+.left-box .inside-text ul {
+  font-family: "Roboto Slab-light", serif;
+  list-style-type: none;
+  line-height: 22px;
 }
 
 .js {
   background-color: #f2da64;
-  color: #2E2F32;
-  font-size: 65px;
+  color: #2e2f32;
+  font-size: 55px;
   height: 90px;
   width: 90px;
   margin: -45px;
-}
-
-.left-box .inside-text ul {
-  list-style-type: none;
 }
 
 // common part
@@ -70,12 +88,12 @@ button {
 // common part end
 
 .right-box .react-logo {
-  margin-left: 140px;
+  margin-left: 150px;
   margin-top: -132px;
 }
 
 .right-box {
-  background-color: #BD3C8A;
+  background-color: #bd3c8a;
   height: 200px;
   outline: 1px solid #fff;
   outline-offset: -10px;
@@ -84,13 +102,27 @@ button {
 }
 
 .right-box .inside-text {
-  max-width: 300px;
+  max-width: 330px;
+  line-height: 2px;
+  height: 100%;
 }
 
 .right-box .title-box {
   max-width: 240px;
+  font-size: 16px;
 }
 
+.right-box .title-box h6 {
+  font-size: 16px;
+}
+
+.right-box .inside-text h3 {
+  font-size: 29px;
+}
+.right-box .inside-text p {
+  font-size: 22px;
+  font-family: "Roboto Slab-light", serif;
+}
 
 .right-box .title-box .title {
   background-color: #114c7f;
@@ -99,15 +131,11 @@ button {
   margin-top: -30px;
 }
 
-.right-box .inside-text {
-}
-
 // >>>>>>>>>>> header end <<<<<<<<<<
 
 // >>>>>>>>>>> nav <<<<<<<<<<
 nav {
   height: 200px;
 }
-
 
 // >>>>>>>>>>> nav end <<<<<<<<<<
