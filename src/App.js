@@ -15,14 +15,14 @@ class App extends Component {
                   <nav className="nav-bar ">
                     <ul className="nav ">
                       <li className="nav-item">
-                        <a className="nav-link font-weight-bold" href="#">
+                        <button className="nav-link" href="#">
                           Umiejętności
-                        </a>
+                        </button>
                       </li>
                       <li>
-                        <a className="nav-link font-weight-bold" href="#">
+                        <button className="nav-link" href="#">
                           Kontakt
-                        </a>
+                        </button>
                       </li>
                     </ul>
                   </nav>

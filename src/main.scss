@@ -7,72 +7,71 @@ button {
   text-decoration: none;
 }
 
+$bg-color-blue: #114c7f;
+$bg-color-light-blue: #c0d3df;
+$bg-color-pink: #bd3c8a;
 // >>>>>>>>>>> global end <<<<<<<<<<
 
 // >>>>>>>>>>> header <<<<<<<<<<
-.nav-bar ul li {
-  color: #114c7f;
-  font-size: 16px;
+.nav-bar {
+  ul {
+    li {
+      color: $bg-color-blue;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
 }
 
 .image-lukasz {
   background-image: url("./gfx/lukasz.png");
   height: 857px;
   background-repeat: no-repeat;
-  background-color: #c0d3df;
+  background-color: $bg-color-light-blue;
   background-position: center;
 }
 
 .left-box {
+  .inside-text {
+    h3 {
+      font-size: 29px;
+      font-weight: 700;
+    }
+    p {
+      margin-bottom: 30px;
+      font-family: "Roboto Slab", serif;
+      font-weight: 300;
+    }
+    h3:nth-last-of-type(1) {
+      margin-top: 30px;
+    }
+    ul {
+      font-weight: 300;
+      font-family: "Roboto Slab", serif;
+      list-style-type: none;
+      line-height: 28px;
+    }
+    font-size: 22px;
+    padding: 40px 50px 70px 50px;
+    line-height: 28px;
+  }
+  .title-box {
+    max-width: 200px;
+    margin: 0 auto;
+    .title {
+      background-color: $bg-color-pink;
+      text-align: center;
+      padding: 15px;
+      margin-top: -25px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
   background-color: #114c7f;
   color: white;
   border-color: #f2da64;
   outline: 1px solid #fff;
   outline-offset: -35px;
-}
-
-.inside-text {
-  padding: 30px 50px 30px 30px;
-}
-
-.row .left-box .title-box {
-  max-width: 200px;
-}
-
-.left-box .title-box .title {
-  background-color: #bd3c8a;
-  text-align: center;
-  padding: 15px;
-  margin-top: -25px;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.left-box .inside-text {
-  font-size: 22px;
-  padding: 40px 50px 70px 50px;
-  line-height: 28px;
-}
-.left-box .inside-text h3 {
-  font-size: 29px;
-  font-weight: 700;
-}
-.left-box .inside-text h3:nth-last-of-type(1) {
-  margin-top: 30px;
-}
-
-.left-box .inside-text p {
-  margin-bottom: 30px;
-  font-family: "Roboto Slab", serif;
-  font-weight: 300;
-
-}
-
-.left-box .inside-text ul {
-  font-weight: 300;
-  font-family: "Roboto Slab", serif;
-  list-style-type: none;
-  line-height: 28px;
 }
 
 .js {
@@ -86,58 +85,43 @@ button {
   font-weight: 700;
 }
 
-// common part
-
-.title-box {
-  margin: 0 auto;
-}
-
-// common part end
-
-.right-box .react-logo {
-  margin-left: 200px;
-  margin-top: -132px;
-}
-
 .right-box {
+  .react-logo {
+    margin-left: 200px;
+    margin-top: -132px;
+  }
+  .title-box {
+    h6 {
+      font-size: 16px;
+      font-weight: 700;
+      background-color: #114c7f;
+      text-align: center;
+      padding: 15px;
+      margin-top: -25px;
+    }
+    margin: 0 auto;
+    max-width: 240px;
+    font-size: 16px;
+  }
+  .inside-text {
+    h3 {
+      font-weight: 700;
+      font-size: 29px;
+    }
+    p {
+      font-size: 22px;
+      font-family: "Roboto Slab", serif;
+      font-weight: 300;
+    }
+    line-height: 6px;
+    padding: 30px 50px 30px 30px;
+  }
   background-color: #bd3c8a;
   height: 200px;
   outline: 1px solid #fff;
   outline-offset: -10px;
   color: white;
   margin-top: -70px;
-}
-
-.right-box .inside-text {
-  line-height: 6px;
-}
-
-.right-box .title-box {
-  max-width: 240px;
-  font-size: 16px;
-}
-
-.right-box .title-box h6 {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.right-box .inside-text h3 {
-  font-weight: 700;
-  font-size: 29px;
-
-}
-.right-box .inside-text p {
-  font-size: 22px;
-  font-family: "Roboto Slab", serif;
-  font-weight: 300;
-}
-
-.right-box .title-box .title {
-  background-color: #114c7f;
-  text-align: center;
-  padding: 15px;
-  margin-top: -25px;
 }
 
 // >>>>>>>>>>> header end <<<<<<<<<<
