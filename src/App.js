@@ -62,7 +62,7 @@ class App extends Component {
                   Jestę developerę
                 </h6>
               </div>
-              <div className="inside-text mt-auto p-5">
+              <div className="inside-text">
                 <h3>Łukasz Górecki</h3>
                 <p className="mb-auto">Junior frontend developer</p>
               </div>
