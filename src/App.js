@@ -32,7 +32,7 @@ class App extends Component {
                   <p>
                     Jestem web developerem i&nbsp;rozwijam się na ścieżce javascriptu
                   </p>
-                  <hr />
+                  <hr className="border-white" />
                   <h3>
                     <strong>Mocne strony:</strong>
                   </h3>
@@ -43,9 +43,9 @@ class App extends Component {
                   </ul>
                 </div>
               </div>
-              <div className="js sticky-top">
-                <span>
-                  <strong className="js-text ">JS</strong>
+              <div className="js sticky-top mr-auto p-3">
+                <span className="js-logo-box ">
+                  <strong>JS</strong>
                 </span>
               </div>
             </div>

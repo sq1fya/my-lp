@@ -1,7 +1,13 @@
-// >>>>>>>>>>> header <<<<<<<<<<
-header {
-
+// >>>>>>>>>>> global <<<<<<<<<<
+hr {
+  border-top: 1px solid rgba(255,255,255,.9);
 }
+
+
+// >>>>>>>>>>> global end <<<<<<<<<<
+
+
+// >>>>>>>>>>> header <<<<<<<<<<
 .image-lukasz {
   background-image: url("./gfx/lukasz.png");
   height: 857px;
@@ -43,7 +49,8 @@ header {
   width: 70px;
   margin: -35px;
 }
-
+.js-logo-box{
+}
 
 .right-box {
   background-color: #BD3C8A;
