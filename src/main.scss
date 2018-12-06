@@ -45,6 +45,7 @@ button {
   padding: 15px;
   margin-top: -25px;
   font-size: 16px;
+  font-weight: 700;
 }
 
 .left-box .inside-text {
@@ -54,6 +55,7 @@ button {
 }
 .left-box .inside-text h3 {
   font-size: 29px;
+  font-weight: 700;
 }
 .left-box .inside-text h3:nth-last-of-type(1) {
   margin-top: 30px;
@@ -61,22 +63,27 @@ button {
 
 .left-box .inside-text p {
   margin-bottom: 30px;
-  font-family: "Roboto Slab-light", serif;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+
 }
 
 .left-box .inside-text ul {
-  font-family: "Roboto Slab-light", serif;
+  font-weight: 300;
+  font-family: "Roboto Slab", serif;
   list-style-type: none;
   line-height: 22px;
 }
 
 .js {
+  font-family: "Roboto Slab", serif;
   background-color: #f2da64;
   color: #2e2f32;
   font-size: 55px;
   height: 90px;
   width: 90px;
   margin: -45px;
+  font-weight: 700;
 }
 
 // common part
@@ -88,7 +95,7 @@ button {
 // common part end
 
 .right-box .react-logo {
-  margin-left: 150px;
+  margin-left: 200px;
   margin-top: -132px;
 }
 
@@ -102,7 +109,7 @@ button {
 }
 
 .right-box .inside-text {
-  max-width: 330px;
+  max-width: 370px;
   line-height: 2px;
   height: 100%;
 }
@@ -114,14 +121,18 @@ button {
 
 .right-box .title-box h6 {
   font-size: 16px;
+  font-weight: 700;
 }
 
 .right-box .inside-text h3 {
+  font-weight: 700;
   font-size: 29px;
+
 }
 .right-box .inside-text p {
   font-size: 22px;
-  font-family: "Roboto Slab-light", serif;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
 }
 
 .right-box .title-box .title {
