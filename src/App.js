@@ -7,20 +7,25 @@ class App extends Component {
   render() {
     return (
       <section className="container-fluid image-lukasz">
-        <div className="row">
+        <div className="row ">
           <div className="container">
-            <div className="row">
+            <div className="row justify-content-end">
               <header>
-                <div className="col" />
-                <nav className="nav-bar">
-                  <ul className="list-group">
-                    <li><strong>Umiejętności</strong></li>
-                    <li><strong>Kontakt</strong> </li>
+                <div className="col ">
+                <nav className="nav-bar ">
+                  <ul className="nav ">
+                    <li className="nav-item">
+                      <a className="nav-link" href="#"><strong>Umiejętności</strong></a>
+                    </li>
+                    <li>
+                      <a className="nav-link" href="#"><strong>Kontakt</strong></a>
+                    </li>
                   </ul>
                 </nav>
+                </div>
               </header>
             </div>
-            <div className="row d-flex align-items-end ">
+            <div className="row d-flex align-items-end">
               <div className="left-box col-4">
                 <div className="title-box justify-content-center sticky-top">
                   <h6 className="title "><strong>Jestę frontendowcę</strong></h6>
@@ -49,11 +54,20 @@ class App extends Component {
                 </span>
               </div>
             </div>
-            <div>
-                <div className="react-logo float-right">
-                  <img src={logo} className="App-logo sticky-top" alt="logo" />
-                </div>
-              <div className="right-box col-4 float-right">
+            <div className="react-logo float-right">
+              <img src={logo} className="App-logo sticky-top" alt="logo" />
+            </div>
+            <div className="right-box col-5 float-right">
+              <div className="title-box justify-content-center">
+                <h6 className="title sticky-top"><strong>Jestę developerę</strong></h6>
+              </div>
+              <div className="inside-text">
+                <h3>
+                  <strong>Łukasz Górecki</strong>
+                </h3>
+                <p className="mb-auto">
+                  Junior frontend developer
+                </p>
               </div>
             </div>
           </div>
