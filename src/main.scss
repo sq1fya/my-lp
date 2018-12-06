@@ -22,10 +22,15 @@ header {
   padding: 30px;
 }
 
+.title-box {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
 .left-box .title {
   background-color: #BD3C8A;
   text-align: center;
-  max-width: 250px;
+  // max-width: 250px;
   padding: 20px;
   margin-top: -30px;
 }
@@ -41,8 +46,11 @@ header {
 
 .right-box {
   background-color: #BD3C8A;
-height: 200px;
+  height: 200px;
+  outline: 2px solid #fff;
+  outline-offset: -20px;
 }
+
 // >>>>>>>>>>> header end <<<<<<<<<<
 
 // >>>>>>>>>>> nav <<<<<<<<<<

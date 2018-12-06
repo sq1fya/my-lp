@@ -22,8 +22,10 @@ class App extends Component {
               </header>
             </div>
             <div className="row">
-              <div className="left-box col-5">
-                <h5 className="title">Jestę frontendowcę</h5>
+              <div className="left-box col-4">
+              <div className="title-box justify-content-center">
+                <h5 className="title ">Jestę frontendowcę</h5>
+                </div>
                 <div className="inside-text">
                   <h3>
                     <strong>Cześć!</strong>
@@ -44,7 +46,7 @@ class App extends Component {
               </div>
               <div className="js"><span><strong className="js-text">JS</strong></span></div>
             </div>
-            <div className="right-box col-5">
+            <div className="right-box col-5 float-right">
             
             </div>
           </div>
