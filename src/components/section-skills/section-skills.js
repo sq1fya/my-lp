@@ -10,7 +10,7 @@ class SectionSkills extends Component {
             <div className="title">
               <h3>Umiejętności</h3>
             </div>
-            <div className="row">
+            <div className="row info-box">
               <div className="left-box col-md-4">
                 <div className="title-box justify-content-center">
                   <h6 className="title">Jestę juniorę</h6>
@@ -29,8 +29,8 @@ class SectionSkills extends Component {
                   </p>
                 </div>
               </div>
-              <div className="skills-box col-md-4 bg-success">
-                <div className="skills-names col">
+              {/* <div className="skills-box col-md-4 bg-success align-self-center">
+                <div className="skills-names col ">
                   <div className="skill-name row">
                     <p>React</p>
                   </div>
@@ -53,9 +53,13 @@ class SectionSkills extends Component {
                     <p>Praca w Scrumie</p>
                   </div>
                 </div>
-              </div>
-              <div className="skills-lines col-md-4 bg-info">
-                <div className="progress">
+              </div> */}
+
+
+
+              <div className="skills-lines col-md-7 bg-info align-self-center" style={{textAlign: 'center'}} >
+                <div className="row d-flex justify-content-end" style={{fontSize:'21px'}}><p style={{textAlign:'center'}}>React</p>
+                <div className="progress" style={{width:'70%'}}>
                   <div
                     class="progress-bar progress-bar-striped progress-bar-animated"
                     role="progressbar"
@@ -63,9 +67,11 @@ class SectionSkills extends Component {
                     aria-valuemin="0"
                     aria-valuemax="100"
                     style={{ width: "30%" }}
-                  />
+                    />
                 </div>
-                <div className="progress">
+                </div>
+                <div className="row d-flex justify-content-end" style={{fontSize:'21px'}}><p style={{textAlign:'center'}}>Javascript</p>
+                <div className="progress" style={{width:'70%'}}>
                   <div
                     class="progress-bar progress-bar-striped progress-bar-animated bg-success"
                     role="progressbar"
@@ -74,6 +80,7 @@ class SectionSkills extends Component {
                     aria-valuemax="100"
                     style={{ width: "70%" }}
                   />
+                </div>
                 </div>
                 <div className="progress">
                   <div
