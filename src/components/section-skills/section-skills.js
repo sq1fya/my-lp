@@ -10,7 +10,7 @@ class SectionSkills extends Component {
             <div className="title">
               <h3>Umiejętności</h3>
             </div>
-            <div className="row info-box">
+            <div className="row info-box d-flex justify-content-between">
               <div className="left-box col-md-4">
                 <div className="title-box justify-content-center">
                   <h6 className="title">Jestę juniorę</h6>
@@ -29,37 +29,10 @@ class SectionSkills extends Component {
                   </p>
                 </div>
               </div>
-              {/* <div className="skills-box col-md-4 bg-success align-self-center">
-                <div className="skills-names col ">
-                  <div className="skill-name row">
-                    <p>React</p>
-                  </div>
-                  <div className="skill-name row">
-                    <p>Javascript</p>
-                  </div>
-                  <div className="skill-name row">
-                    <p>Redux.js</p>
-                  </div>
-                  <div className="skill-name row">
-                    <p>RWD</p>
-                  </div>
-                  <div className="skill-name row">
-                    <p>HTML 5</p>
-                  </div>
-                  <div className="skill-name row">
-                    <p>CSS3</p>
-                  </div>
-                  <div className="skill-name row">
-                    <p>Praca w Scrumie</p>
-                  </div>
-                </div>
-              </div> */}
-
-
-
-              <div className="skills-lines col-md-7 bg-info align-self-center" style={{textAlign: 'center'}} >
-                <div className="row d-flex justify-content-end" style={{fontSize:'21px'}}><p style={{textAlign:'center'}}>React</p>
-                <div className="progress" style={{width:'70%'}}>
+              
+              <div className="skills-box col-md-7 align-self-center">
+                <div className="skill row d-flex justify-content-end"><p>React</p>
+                <div className="progress">
                   <div
                     class="progress-bar progress-bar-striped progress-bar-animated"
                     role="progressbar"
@@ -70,18 +43,19 @@ class SectionSkills extends Component {
                     />
                 </div>
                 </div>
-                <div className="row d-flex justify-content-end" style={{fontSize:'21px'}}><p style={{textAlign:'center'}}>Javascript</p>
-                <div className="progress" style={{width:'70%'}}>
+                <div className="skill row d-flex justify-content-end"><p>Javascript</p>
+                <div className="progress">
                   <div
                     class="progress-bar progress-bar-striped progress-bar-animated bg-success"
                     role="progressbar"
                     aria-valuenow="40"
                     aria-valuemin="0"
                     aria-valuemax="100"
-                    style={{ width: "70%" }}
+                    style={{ width: "70%"}}
                   />
                 </div>
                 </div>
+                <div className="skill row d-flex justify-content-end"><p>Redux.js</p>
                 <div className="progress">
                   <div
                     class="progress-bar progress-bar-striped progress-bar-animated bg-info"
@@ -92,6 +66,8 @@ class SectionSkills extends Component {
                     style={{ width: "20%" }}
                   />
                 </div>
+                </div>
+                <div className="skill row d-flex justify-content-end"><p>RWD</p>
                 <div className="progress">
                   <div
                     class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
@@ -102,6 +78,8 @@ class SectionSkills extends Component {
                     style={{ width: "80%" }}
                   />
                 </div>
+                </div>
+                <div className="skill row d-flex justify-content-end"><p>HTML 5</p>
                 <div className="progress">
                   <div
                     class="progress-bar progress-bar-striped progress-bar-animated bg-success"
@@ -112,6 +90,8 @@ class SectionSkills extends Component {
                     style={{ width: "40%" }}
                   />
                 </div>
+                </div>
+                <div className="skill row d-flex justify-content-end"><p>CSS3</p>
                 <div className="progress">
                   <div
                     class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
@@ -122,6 +102,8 @@ class SectionSkills extends Component {
                     style={{ width: "50%" }}
                   />
                 </div>
+                </div>
+                <div className="skill row d-flex justify-content-end"><p>Praca w Scrumie</p>
                 <div className="progress">
                   <div
                     class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
@@ -129,8 +111,9 @@ class SectionSkills extends Component {
                     aria-valuenow="40"
                     aria-valuemin="0"
                     aria-valuemax="100"
-                    style={{ width: "90%" }}
+                    style={{ width: "90%"}}
                   />
+                </div>
                 </div>
               </div>
             </div>

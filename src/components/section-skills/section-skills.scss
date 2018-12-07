@@ -18,57 +18,58 @@ $bg-color-blue: #114c7f;
       color: white;
     }
   }
-
-  .left-box {
-    background-color: $bg-color-blue;
-    color: white;
-    border-color: #f2da64;
-    outline: 1px solid #fff;
-    outline-offset: -35px;
-    .title-box {
-      max-width: 200px;
-      margin: 0 auto;
-      .title {
-        background-color: $bg-color-pink;
-        text-align: center;
-        padding: 15px;
-        margin-top: -25px;
-        font-size: 16px;
-        font-weight: 700;
-      }
-    }
-    .inside-text {
-      font-size: 22px;
-      padding: 40px 50px 70px 50px;
-      line-height: 28px;
-      h3 {
-        font-size: 29px;
-        font-weight: 700;
-        &:nth-last-of-type(1) {
-          margin-top: 30px;
+  .info-box {
+    .left-box {
+      background-color: $bg-color-blue;
+      color: white;
+      border-color: #f2da64;
+      outline: 1px solid #fff;
+      outline-offset: -35px;
+      .title-box {
+        max-width: 200px;
+        margin: 0 auto;
+        .title {
+          background-color: $bg-color-pink;
+          text-align: center;
+          padding: 15px;
+          margin-top: -25px;
+          font-size: 16px;
+          font-weight: 700;
         }
       }
-      p {
-        margin-bottom: 30px;
+      .inside-text {
+        font-size: 22px;
+        padding: 40px 50px 70px 50px;
+        line-height: 28px;
+        h3 {
+          font-size: 29px;
+          font-weight: 700;
+          &:nth-last-of-type(1) {
+            margin-top: 30px;
+          }
+        }
+        p {
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .skills-box {
+      .skill {
+        margin: 20px 0 20px 0;
+        align-items: center;
+        p {
+          color: white;
+          padding-right: 20px;
+          font-size: 21px;
+          margin-top: none;
+          margin-bottom: none;
+          margin: 0;
+        }
+      }
+      .progress {
+        width: 70%;
+        height: 7px
       }
     }
   }
-}
-
-.skills-box {
-  .skills-names {
-    .skill-name {
-    }
-  }
-  .skills-lines {
-    
-  }
-}
-.skill-line {
-      height: 20px;
-      width: 100%;
-      background-color: #f2da64;
-    }
-.progress {
-  margin-top: 20px;
 }
