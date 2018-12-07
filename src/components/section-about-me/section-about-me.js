@@ -11,7 +11,7 @@ class SectionAboutMe extends Component {
               <header>
                 <div className="col">
                   <nav className="nav-bar">
-                    <ul className="nav">
+                    <ul className="nav fixed-top">
                       <li className="nav-item">
                         <button className="nav-link" href="#">
                           Umiejętności
@@ -29,7 +29,7 @@ class SectionAboutMe extends Component {
             </div>
             <div className="row d-flex align-items-end">
               <div className="left-box col-4">
-                <div className="title-box justify-content-center sticky-top">
+                <div className="title-box justify-content-center">
                   <h6 className="title">Jestę frontendowcę</h6>
                 </div>
                 <div className="inside-text">
