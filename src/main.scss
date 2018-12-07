@@ -1,14 +1,13 @@
 // >>>>>>>>>>> global <<<<<<<<
 
-.container {
-  max-width: 1200px;
-}
 hr {
   border-top: 1px solid rgba(255, 255, 255, 0.9);
 }
 
 button {
-  text-decoration: none;
+  padding: 0;
+  border: none;
+  background: none;
 }
 
 $bg-color-blue: #114c7f;
@@ -17,17 +16,19 @@ $bg-color-pink: #bd3c8a;
 // >>>>>>>>>>> global end <<<<<<<<<<
 
 // >>>>>>>>>>> header <<<<<<<<<<
-.nav-bar {
-  ul {
-    li {
-      color: $bg-color-blue;
-      font-size: 16px;
-      font-weight: 700;
+.section-about-me {
+  .nav-bar {
+    ul {
+      li {
+        color: $bg-color-blue;
+        font-size: 16px;
+        font-weight: 700;
+      }
     }
   }
 }
 
-.image-lukasz {
+.section-about-me.background-image {
   background-image: url("./gfx/lukasz.png");
   height: 857px;
   background-repeat: no-repeat;
@@ -35,43 +36,45 @@ $bg-color-pink: #bd3c8a;
   background-position: center;
 }
 
-.left-box {
-  background-color: #114c7f;
-  color: white;
-  border-color: #f2da64;
-  outline: 1px solid #fff;
-  outline-offset: -35px;
-  .inside-text {
-    font-size: 22px;
-    padding: 40px 50px 70px 50px;
-    line-height: 28px;
-    h3 {
-      font-size: 29px;
-      font-weight: 700;
-      &:nth-last-of-type(1) {
-        margin-top: 30px;
+.section-about-me {
+  .left-box {
+    background-color: #114c7f;
+    color: white;
+    border-color: #f2da64;
+    outline: 1px solid #fff;
+    outline-offset: -35px;
+    .inside-text {
+      font-size: 22px;
+      padding: 40px 50px 70px 50px;
+      line-height: 28px;
+      h3 {
+        font-size: 29px;
+        font-weight: 700;
+        &:nth-last-of-type(1) {
+          margin-top: 30px;
+        }
+      }
+      p {
+        margin-bottom: 30px;
+      }
+      ul {
+        font-weight: 300;
+        font-family: "Roboto Slab", serif;
+        list-style-type: none;
+        line-height: 28px;
       }
     }
-    p {
-      margin-bottom: 30px;
-    }
-    ul {
-      font-weight: 300;
-      font-family: "Roboto Slab", serif;
-      list-style-type: none;
-      line-height: 28px;
-    }
-  }
-  .title-box {
-    max-width: 200px;
-    margin: 0 auto;
-    .title {
-      background-color: $bg-color-pink;
-      text-align: center;
-      padding: 15px;
-      margin-top: -25px;
-      font-size: 16px;
-      font-weight: 700;
+    .title-box {
+      max-width: 200px;
+      margin: 0 auto;
+      .title {
+        background-color: $bg-color-pink;
+        text-align: center;
+        padding: 15px;
+        margin-top: -25px;
+        font-size: 16px;
+        font-weight: 700;
+      }
     }
   }
 }
@@ -87,43 +90,44 @@ $bg-color-pink: #bd3c8a;
   font-weight: 700;
 }
 
-.right-box {
-  background-color: #bd3c8a;
-  height: 200px;
-  outline: 1px solid #fff;
-  outline-offset: -10px;
-  color: white;
-  margin-top: -70px;
-  .react-logo {
-    margin-left: 200px;
-    margin-top: -132px;
-  }
-  .title-box {
-    h6 {
+.section-about-me {
+  .right-box {
+    background-color: #bd3c8a;
+    height: 200px;
+    outline: 1px solid #fff;
+    outline-offset: -10px;
+    color: white;
+    margin-top: -70px;
+    .react-logo {
+      margin-left: 200px;
+      margin-top: -132px;
+    }
+    .title-box {
+      h6 {
+        font-size: 16px;
+        font-weight: 700;
+        background-color: #114c7f;
+        text-align: center;
+        padding: 15px;
+        margin-top: -25px;
+      }
+      margin: 0 auto;
+      max-width: 240px;
       font-size: 16px;
-      font-weight: 700;
-      background-color: #114c7f;
-      text-align: center;
-      padding: 15px;
-      margin-top: -25px;
     }
-    margin: 0 auto;
-    max-width: 240px;
-    font-size: 16px;
-  }
-  .inside-text {
-    line-height: 6px;
-    padding: 30px 50px 30px 30px;
-    h3 {
-      font-weight: 700;
-      font-size: 29px;
-    }
-    p {
-      font-size: 22px;
+    .inside-text {
+      line-height: 6px;
+      padding: 30px 50px 30px 30px;
+      h3 {
+        font-weight: 700;
+        font-size: 29px;
+      }
+      p {
+        font-size: 22px;
+      }
     }
   }
 }
-
 // >>>>>>>>>>> header end <<<<<<<<<<
 
 // >>>>>>>>>>> nav <<<<<<<<<<
