@@ -34,7 +34,7 @@ class SectionAboutMe extends Component {
                 </div>
                 <div className="inside-text">
                   <h3>Cześć!</h3>
-                  <p className="">
+                  <p>
                     Jestem web developerem i&nbsp;rozwijam się na ścieżce
                     javascriptu
                   </p>
