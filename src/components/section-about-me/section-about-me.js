@@ -33,6 +33,7 @@ class SectionAboutMe extends Component {
                   <h6 className="title">Jestę frontendowcę</h6>
                 </div>
                 <div className="inside-text">
+                <div className="inside-text--box">
                   <h3>Cześć!</h3>
                   <p>
                     Jestem web developerem i&nbsp;rozwijam się na ścieżce
@@ -45,9 +46,10 @@ class SectionAboutMe extends Component {
                     <li>- Javascript</li>
                     <li>- RWD</li>
                   </ul>
+                  </div>
                 </div>
               </div>
-              <div className="js sticky-top mr-auto p-3">JS</div>
+              <div className="js sticky-top"><p>JS</p></div>
             </div>
             <div className="right-box col-6 float-right position-relative">
               <div className="react-logo float-right position-absolute">
