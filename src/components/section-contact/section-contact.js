@@ -16,19 +16,17 @@ class SectionContact extends Component {
             </div>
             <form className="form-box col-lg-5 mx-auto">
               <div class="form-group">
-                <label for="validationDefault01"></label>
                 <input
                   type="text"
-                  class="form-control form-control-lg"
+                  class="name-input form-control form-control-lg"
                   id="validationDefault01"
                   placeholder="Imię i nazwisko / Firma"
                 />
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1"></label>
                 <input
                   type="email"
-                  class="form-control form-control-lg"
+                  class="email-input form-control form-control-lg"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Email"

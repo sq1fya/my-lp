@@ -1,5 +1,6 @@
 $bg-color-blue: #114c7f;
 
+
 .section-contact {
   background-color: #472f51;
   .title {
@@ -28,7 +29,32 @@ $bg-color-blue: #114c7f;
     }
   }
   .form-box {
-    padding-top: 7px;
+    padding-top: 40px;
     padding-bottom: 200px;
+    .name-input {
+      border: 2px solid #62dafc;
+      border-radius: 0px;
+      background-color: transparent;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 25px;
+
+    }
+    .email-input {
+      border: 2px solid #bd4573;
+      border-radius: 0px;
+      background-color: transparent;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 25px;
+    }
+    button {
+    background-color: #bd4573;
+    border-color: #bd4573;
+    border-radius: 0px;
+    width: 220px;
+    font-size: 16px;
+    padding: 12px;
+    }
   }
 }
