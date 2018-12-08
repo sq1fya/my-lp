@@ -1,6 +1,5 @@
 $bg-color-blue: #114c7f;
 
-
 .section-contact {
   background-color: #472f51;
   .title {
@@ -21,8 +20,6 @@ $bg-color-blue: #114c7f;
     padding: 116px 0 0px;
     text-align: center;
     color: white;
-    h3 {
-    }
     p {
       font-size: 21px;
       font-weight: 300;
@@ -38,7 +35,6 @@ $bg-color-blue: #114c7f;
       font-size: 16px;
       font-weight: 700;
       padding: 25px;
-
     }
     .email-input {
       border: 2px solid #bd4573;
@@ -49,12 +45,12 @@ $bg-color-blue: #114c7f;
       padding: 25px;
     }
     button {
-    background-color: #bd4573;
-    border-color: #bd4573;
-    border-radius: 0px;
-    width: 220px;
-    font-size: 16px;
-    padding: 12px;
+      background-color: #bd4573;
+      border-color: #bd4573;
+      border-radius: 0px;
+      width: 220px;
+      font-size: 16px;
+      padding: 12px;
     }
   }
 }
