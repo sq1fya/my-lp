@@ -16,6 +16,7 @@ class SectionSkills extends Component {
                   <h6 className="title">Jestę juniorę</h6>
                 </div>
                 <div className="inside-text">
+                <div className="inside-text--box">
                   <h3>Uczę się</h3>
                   <p>
                     Nie chcę oszukiwać, jestem juniorem ale jestem ambitny
@@ -27,6 +28,7 @@ class SectionSkills extends Component {
                     jest zmysł graficzny i&nbsp;zainteresowanie światem IT, za
                     rok już będę wyjadaczem
                   </p>
+                </div>
                 </div>
               </div>
               
