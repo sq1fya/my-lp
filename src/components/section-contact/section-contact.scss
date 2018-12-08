@@ -1,0 +1,30 @@
+$bg-color-blue: #114c7f;
+
+.section-contact {
+  background-color: #472f51;
+  .title {
+    margin: 0 auto;
+    max-width: 375px;
+    background-color: $bg-color-blue;
+    padding: 15px;
+    margin-top: -11px;
+    font-weight: 700;
+    h3 {
+      text-align: center;
+      font-size: 16px;
+      color: white;
+      margin: 0;
+    }
+  }
+  .info-box {
+    padding: 116px 0 500px;
+    text-align: center;
+    color: white;
+    h3 {
+    }
+    p {
+      font-size: 21px;
+      font-weight: 300;
+    }
+  }
+}

@@ -1,9 +1,32 @@
+.bg-react {
+  background-color: #61dafb;
+}
+
+.bg-js {
+  background-color: #d6ba32;
+}
+
+.bg-redux {
+  background-color: #764abc;
+}
+
+.bg-html5 {
+  background-color: #e44d26;
+}
+
+.bg-css3 {
+  background-color: #0170ba;
+}
+
+.bg-ps {
+  background-color: #001d26;
+}
+
 $bg-color-purple-light: #70365f;
 $bg-color-pink: #bd3c8a;
 $bg-color-blue: #114c7f;
 
 .section-skills {
-  // height: 700px;
   background-color: #70365f;
   .title {
     margin: 0 auto;
@@ -37,28 +60,26 @@ $bg-color-blue: #114c7f;
         }
       }
       .inside-text {
-        font-size: 22px;
+        font-size: 21px;
         padding: 18px 10px 25px 10px;
-        line-height: 28px;
+        line-height: 27px;
         .inside-text--box {
-          padding: 20px 0px 5px 35px;
+          padding: 20px 40px 5px 35px;
           border: 1px solid white;
           h3 {
             font-size: 29px;
             font-weight: 700;
-            &:nth-last-of-type(1) {
-              // margin-top: 0px;
-            }
+            margin: 0;
           }
           p {
-            // margin-bottom: 30px;
+            padding-bottom: 15px;
           }
         }
       }
     }
     .skills-box {
       .skill {
-        margin: 20px 0 20px 0;
+        margin-bottom: 20px;
         align-items: center;
         p {
           color: white;

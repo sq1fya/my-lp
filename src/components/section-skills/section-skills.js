@@ -36,43 +36,43 @@ class SectionSkills extends Component {
                 <div className="skill row d-flex justify-content-end"><p>React</p>
                 <div className="progress">
                   <div
-                    class="progress-bar progress-bar-striped progress-bar-animated"
+                    class="progress-bar progress-bar-striped progress-bar-animated bg-react"
                     role="progressbar"
                     aria-valuenow="40"
                     aria-valuemin="0"
                     aria-valuemax="100"
-                    style={{ width: "30%" }}
+                    style={{ width: "40%" }}
                     />
                 </div>
                 </div>
                 <div className="skill row d-flex justify-content-end"><p>Javascript</p>
                 <div className="progress">
                   <div
-                    class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                    class="progress-bar progress-bar-striped progress-bar-animated bg-js"
                     role="progressbar"
                     aria-valuenow="40"
                     aria-valuemin="0"
                     aria-valuemax="100"
-                    style={{ width: "70%"}}
+                    style={{ width: "60%"}}
                   />
                 </div>
                 </div>
                 <div className="skill row d-flex justify-content-end"><p>Redux.js</p>
                 <div className="progress">
                   <div
-                    class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                    class="progress-bar progress-bar-striped progress-bar-animated bg-redux"
                     role="progressbar"
                     aria-valuenow="40"
                     aria-valuemin="0"
                     aria-valuemax="100"
-                    style={{ width: "20%" }}
+                    style={{ width: "40%" }}
                   />
                 </div>
                 </div>
                 <div className="skill row d-flex justify-content-end"><p>RWD</p>
                 <div className="progress">
                   <div
-                    class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                    class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
                     role="progressbar"
                     aria-valuenow="40"
                     aria-valuemin="0"
@@ -84,24 +84,36 @@ class SectionSkills extends Component {
                 <div className="skill row d-flex justify-content-end"><p>HTML 5</p>
                 <div className="progress">
                   <div
-                    class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                    class="progress-bar progress-bar-striped progress-bar-animated bg-html5"
                     role="progressbar"
                     aria-valuenow="40"
                     aria-valuemin="0"
                     aria-valuemax="100"
-                    style={{ width: "40%" }}
+                    style={{ width: "80%" }}
                   />
                 </div>
                 </div>
                 <div className="skill row d-flex justify-content-end"><p>CSS3</p>
                 <div className="progress">
                   <div
-                    class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                    class="progress-bar progress-bar-striped progress-bar-animated bg-css3"
                     role="progressbar"
                     aria-valuenow="40"
                     aria-valuemin="0"
                     aria-valuemax="100"
-                    style={{ width: "50%" }}
+                    style={{ width: "80%" }}
+                  />
+                </div>
+                </div>
+                <div className="skill row d-flex justify-content-end"><p>Photoshop</p>
+                <div className="progress">
+                  <div
+                    class="progress-bar progress-bar-striped progress-bar-animated bg-ps"
+                    role="progressbar"
+                    aria-valuenow="40"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style={{ width: "70%"}}
                   />
                 </div>
                 </div>
