@@ -4,13 +4,12 @@ import logo from "../../gfx/logo.svg";
 class SectionAboutMe extends Component {
   render() {
     return (
-      <section className="section-about-me background-image container-fluid ">
+      <section className="section-about-me background-image container-fluid">
         <div className="row">
           <div className="container">
               <header>
-                <div className="col">
-                  <nav className="nav-bar">
-                    <ul className="nav ">
+                  <nav className="navbar nav-bar justify-content-end">
+                    <ul className="nav position-fixed">
                       <li className="nav-item">
                         <button className="nav-link" href="#">
                           Umiejętności
@@ -23,7 +22,6 @@ class SectionAboutMe extends Component {
                       </li>
                     </ul>
                   </nav>
-                </div>
               </header>
             <div className="row d-flex align-items-end">
               <div className="left-box col-4">
@@ -51,7 +49,7 @@ class SectionAboutMe extends Component {
             </div>
             <div className="right-box col-6 float-right position-relative">
               <div className="react-logo float-right position-absolute">
-                <img src={logo} className="App-logo sticky-top" alt="logo" />
+                <img src={logo} className="App-logo" alt="logo" />
               </div>
               <div className="title-box justify-content-center">
                 <h6 className="title sticky-top">Jestę developerę</h6>
