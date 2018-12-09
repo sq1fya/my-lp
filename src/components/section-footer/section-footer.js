@@ -15,11 +15,11 @@ class SectionFooter extends Component {
               <div className="info-box--contact col-4">
                 <p>
                   <spam>tel: </spam>
-                  <span>515 115 750</span>
+                  <span><a href="tel:+48-515-115-750">515 115 750</a></span>
                 </p>
                 <p>
                   <span>mail: </span>
-                  <span>lukasz.gorecki@hotmail.com</span>
+                  <span><a href="mailto:lukasz.gorecki@hotmail.com">lukasz.gorecki@hotmail.com</a></span>
                 </p>
               </div>
             </div>

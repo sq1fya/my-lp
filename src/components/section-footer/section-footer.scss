@@ -23,12 +23,24 @@
           font-weight: 700;
           font-size: 18px;
         }
+        span {
+          a {
+            color: white;
+            text-decoration: none;
+          }
+        }
       }
       p {
         font-size: 17px;
         span:nth-last-of-type(1) {
           font-weight: 700;
           font-size: 18px;
+        }
+        span {
+          a {
+            color: white;
+            text-decoration: none;
+          }
         }
       }
     }
