@@ -25,10 +25,25 @@ $bg-color-pink: #bd3c8a;
 .section-about-me {
   .nav-bar {
     ul {
+      position: fixed;
       li {
         color: $bg-color-blue;
         font-size: 16px;
         font-weight: 700;
+      }
+      button {
+        font-weight: 700;
+        color: #173f62;
+        -webkit-transition: color 0.5s ease-out;
+        -moz-transition: color 0.5s ease-out;
+        -o-transition: color 0.5s ease-out;
+        transition: color 0.5s ease-out;
+      }
+      button:hover {
+        color: #bd3c8a;
+      }
+      button:focus {
+        outline: 0;
       }
     }
   }

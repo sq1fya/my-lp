@@ -7,11 +7,10 @@ class SectionAboutMe extends Component {
       <section className="section-about-me background-image container-fluid ">
         <div className="row">
           <div className="container">
-            <div className="row justify-content-end">
               <header>
                 <div className="col">
                   <nav className="nav-bar">
-                    <ul className="nav fixed-top">
+                    <ul className="nav ">
                       <li className="nav-item">
                         <button className="nav-link" href="#">
                           Umiejętności
@@ -26,7 +25,6 @@ class SectionAboutMe extends Component {
                   </nav>
                 </div>
               </header>
-            </div>
             <div className="row d-flex align-items-end">
               <div className="left-box col-4">
                 <div className="title-box justify-content-center">
