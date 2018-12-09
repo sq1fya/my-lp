@@ -28,23 +28,33 @@ $bg-color-blue: #114c7f;
   .form-box {
     padding-top: 40px;
     padding-bottom: 200px;
-    .name-input {
-      border: 2px solid #62dafc;
-      border-radius: 0px;
-      background-color: transparent;
-      font-size: 16px;
-      font-weight: 700;
-      padding: 25px;
-      color: #62dafc;
+    .form-box--name {
+      ::placeholder {
+        color: #62dafc;
+      }
+      .name-input {
+        border: 2px solid #62dafc;
+        border-radius: 0px;
+        background-color: transparent;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 25px;
+        color: #62dafc;
+      }
     }
-    .email-input {
-      border: 2px solid #bd4573;
-      border-radius: 0px;
-      background-color: transparent;
-      font-size: 16px;
-      font-weight: 700;
-      padding: 25px;
-      color: #bd4573;
+    .form-box--email {
+      ::placeholder {
+        color: #bd4573;
+      }
+      .email-input {
+        border: 2px solid #bd4573;
+        border-radius: 0px;
+        background-color: transparent;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 25px;
+        color: #bd4573;
+      }
     }
     button {
       background-color: #bd4573;

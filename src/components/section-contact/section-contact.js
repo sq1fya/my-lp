@@ -15,7 +15,7 @@ class SectionContact extends Component {
               <p>napisz do mnie:</p>
             </div>
             <form className="form-box col-lg-5 mx-auto">
-              <div class="form-group">
+              <div class="form-group form-box--name">
                 <input
                   type="text"
                   class="name-input form-control form-control-lg"
@@ -23,7 +23,7 @@ class SectionContact extends Component {
                   placeholder="Imię i nazwisko / Firma"
                 />
               </div>
-              <div class="form-group">
+              <div class="form-group form-box--email">
                 <input
                   type="email"
                   class="email-input form-control form-control-lg"
