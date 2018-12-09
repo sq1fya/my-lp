@@ -1,9 +1,36 @@
-
 .section-footer {
   height: 170px;
   background-color: #292929;
   .info-box {
     color: white;
     padding-top: 60px;
+    .info-box--name {
+      p:first-of-type {
+        font-weight: 700;
+        font-size: 21px;
+        margin: 0;
+      }
+      p {
+        font-size: 17px;
+        font-weight: 300;
+      }
+    }
+    .info-box--contact {
+      p:first-of-type {
+        margin: 0;
+        font-size: 17px;
+        span:first-of-type {
+          font-weight: 700;
+          font-size: 18px;
+        }
+      }
+      p {
+        font-size: 17px;
+        span:nth-last-of-type(1) {
+          font-weight: 700;
+          font-size: 18px;
+        }
+      }
+    }
   }
 }
