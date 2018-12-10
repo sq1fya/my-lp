@@ -49,18 +49,17 @@ class SectionAboutMe extends Component {
                 <p>JS</p>
               </div>
             </div>
-            <div className="right-box col-6 float-right">
-
-              <div className="right-box--main">
-                  <div className="title-box">
-                    <h6 className="title">Jestę developerę</h6>
-                  </div>
-                <div className="inside-text">
+            <div className="right-box col-6 float-right ">
+              <div className="right-box--main ">
+                <div className="react-logo position-absolute">
+                  <img src={logo} className="App-logo" alt="react-logo" />
+                </div>
+                <div className="title-box position-relative">
+                  <h6 className="title">Jestę developerę</h6>
+                </div>
+                <div className="inside-text ">
                   <h3>Łukasz Górecki</h3>
                   <p className="mb-auto">Junior frontend developer</p>
-                  {/* <div className="react-logo float-right">
-                  <img src={logo} className="App-logo" alt="logo" />
-                </div> */}
                 </div>
               </div>
             </div>
