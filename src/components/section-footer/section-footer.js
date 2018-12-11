@@ -13,7 +13,7 @@ class SectionFooter extends Component {
                 <p>React junior developer</p>
                 <hr className="d-lg-none d-md-block w-75 float-left" />
               </div>
-              <div className="info-box--contact col-lg-4 col-md-6 text-lg-right">
+              <div className="info-box--contact col-lg-5 col-md-6 text-lg-right">
                 <p>
                   <spam>tel: </spam>
                   <span><a className="text-white" href="tel:+48-515-115-750">515 115 750</a></span>
