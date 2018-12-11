@@ -8,10 +8,10 @@ class SectionSkills extends Component {
         <div className="row">
           <div className="container">
             <div className="title">
-              <h3>Umiejętności</h3>
+              <h3 className="text-white">Umiejętności</h3>
             </div>
             <div className="row info-box d-flex justify-content-between">
-              <div className="left-box col-md-4">
+              <div className="left-box col-md-4 text-white">
                 <div className="title-box justify-content-center">
                   <h6 className="title">Jestę juniorę</h6>
                 </div>
