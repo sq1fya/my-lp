@@ -14,7 +14,7 @@ class SectionContact extends Component {
               <h3>Jeśli jesteś zainteresowany współpracą</h3>
               <p>napisz do mnie:</p>
             </div>
-            <form className="form-box col-lg-5 mx-auto">
+            <form className="form-box col-lg-5 col-10 mx-auto">
               <div className="form-group form-box--name">
                 <input
                   type="text"
@@ -32,10 +32,10 @@ class SectionContact extends Component {
                   placeholder="Email"
                 />
               </div>
-              <div className="d-md-flex justify-content-md-center float-lg-right">
-              <button type="submit" className="btn btn-primary btn-lg float-md-none">
-                Wyślij
-              </button>
+              <div className="d-flex justify-content-center float-lg-right">
+                <button type="submit" className="btn btn-primary btn-lg">
+                  Wyślij
+                </button>
               </div>
             </form>
           </div>
