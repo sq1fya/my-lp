@@ -4,15 +4,15 @@ import "./section-footer.scss";
 class SectionFooter extends Component {
   render() {
     return (
-      <section className="section-footer container-fluid ">
+      <section className="section-footer container-fluid">
         <div className="row ">
-          <div className="container" style={{ height: "130px" }}>
-            <div className="info-box row justify-content-between  ">
-              <div className="info-box--name col-3">
+          <div className="container">
+            <div className="info-box row justify-content-lg-between flex-lg-nowrap flex-md-wrap">
+              <div className="info-box--name col-lg-3 col-md-12 text-lg-left ">
                 <p>Łukasz Górecki</p>
                 <p>React junior developer</p>
               </div>
-              <div className="info-box--contact col-4">
+              <div className="info-box--contact col-lg-4 col-md-12 text-lg-right">
                 <p>
                   <spam>tel: </spam>
                   <span><a href="tel:+48-515-115-750">515 115 750</a></span>

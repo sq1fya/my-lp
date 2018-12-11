@@ -24,7 +24,7 @@ class SectionAboutMe extends Component {
               </nav>
             </header>
             <div className="row d-flex align-items-end">
-              <div className="left-box col-4">
+              <div className="left-box col-4 text-white">
                 <div className="title-box justify-content-center">
                   <h6 className="title">Jestę frontendowcę</h6>
                 </div>
@@ -45,19 +45,19 @@ class SectionAboutMe extends Component {
                   </div>
                 </div>
               </div>
-              <div className="js sticky-top">
+              <div className="js sticky-top bg-js">
                 <p>JS</p>
               </div>
             </div>
-            <div className="right-box col-6 float-right ">
-              <div className="right-box--main ">
+            <div className="right-box col-6 float-right text-white">
+              <div className="right-box--main">
                 <div className="react-logo position-absolute">
                   <img src={logo} className="App-logo" alt="react-logo" />
                 </div>
                 <div className="title-box position-relative">
                   <h6 className="title">Jestę developerę</h6>
                 </div>
-                <div className="inside-text ">
+                <div className="inside-text">
                   <h3>Łukasz Górecki</h3>
                   <p className="mb-auto">Junior frontend developer</p>
                 </div>

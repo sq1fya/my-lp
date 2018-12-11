@@ -19,6 +19,7 @@ button {
 $bg-color-blue: #114c7f;
 $bg-color-light-blue: #c0d3df;
 $bg-color-pink: #bd3c8a;
+$bg-color-gray: #2e2f32;
 // >>>>>>>>>>> global end <<<<<<<<<<
 
 // >>>>>>>>>>> header <<<<<<<<<<
@@ -33,14 +34,14 @@ $bg-color-pink: #bd3c8a;
       }
       button {
         font-weight: 700;
-        color: #173f62;
+        color: $bg-color-blue;
         -webkit-transition: color 0.5s ease-out;
         -moz-transition: color 0.5s ease-out;
         -o-transition: color 0.5s ease-out;
         transition: color 0.5s ease-out;
       }
       button:hover {
-        color: #bd3c8a;
+        color: $bg-color-pink;
       }
       button:focus {
         outline: 0;
@@ -59,8 +60,7 @@ $bg-color-pink: #bd3c8a;
 
 .section-about-me {
   .left-box {
-    background-color: #114c7f;
-    color: white;
+    background-color: $bg-color-blue;
     .inside-text {
       font-size: 21px;
       padding: 10px 10px 27px 10px;
@@ -100,8 +100,7 @@ $bg-color-pink: #bd3c8a;
 }
 
 .js {
-  background-color: #f2da64;
-  color: #2e2f32;
+  color: $bg-color-gray;
   height: 110px;
   width: 110px;
   margin: 0 -76px -38px;
@@ -121,16 +120,15 @@ $bg-color-pink: #bd3c8a;
     h6 {
       font-size: 16px;
       font-weight: 700;
-      background-color: #114c7f;
+      background-color: $bg-color-blue;
       text-align: center;
       padding: 15px;
       margin-top: -37px;
     }
   }
   .right-box {
-    background-color: #bd3c8a;
+    background-color: $bg-color-pink;
     height: 250px;
-    color: white;
     margin-top: -80px;
     padding: 15px 15px 0 15px;
     .right-box--main {
