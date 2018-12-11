@@ -32,9 +32,11 @@ class SectionContact extends Component {
                   placeholder="Email"
                 />
               </div>
-              <button type="submit" className="btn btn-primary float-right btn-lg">
+              <div className="">
+              <button type="submit" className="btn btn-primary float-lg-right btn-lg">
                 Wyślij
               </button>
+              </div>
             </form>
           </div>
         </div>
