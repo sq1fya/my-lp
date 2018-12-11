@@ -1,8 +1,9 @@
+$bg-color-gray: #2e2f32;
+
 .section-footer {
-  background-color: #292929;
+  background-color: $bg-color-gray;
   padding-bottom: 40px;
   .info-box {
-    color: white;
     padding-top: 25px;
     .info-box--name {
       margin-top: 30px;
@@ -28,7 +29,6 @@
         }
         span {
           a {
-            color: white;
             text-decoration: none;
           }
         }
@@ -41,7 +41,6 @@
         }
         span {
           a {
-            color: white;
             text-decoration: none;
           }
         }

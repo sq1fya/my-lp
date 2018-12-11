@@ -7,10 +7,10 @@ class SectionContact extends Component {
       <section className="section-contact container-fluid">
         <div className="row">
           <div className="container">
-            <div className="title">
+            <div className="title text-white">
               <h3>Kontakt</h3>
             </div>
-            <div className="col info-box">
+            <div className="col info-box text-white">
               <h3>Jeśli jesteś zainteresowany współpracą</h3>
               <p>napisz do mnie:</p>
             </div>

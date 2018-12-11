@@ -7,7 +7,7 @@ class SectionFooter extends Component {
       <section className="section-footer container-fluid">
         <div className="row ">
           <div className="container">
-            <div className="info-box row justify-content-lg-between flex-lg-nowrap flex-md-wrap">
+            <div className="info-box text-white row justify-content-lg-between flex-lg-nowrap flex-md-wrap">
               <div className="info-box--name col-lg-3 col-md-12 text-lg-left ">
                 <p>Łukasz Górecki</p>
                 <p>React junior developer</p>
@@ -15,11 +15,11 @@ class SectionFooter extends Component {
               <div className="info-box--contact col-lg-4 col-md-12 text-lg-right">
                 <p>
                   <spam>tel: </spam>
-                  <span><a href="tel:+48-515-115-750">515 115 750</a></span>
+                  <span><a className="text-white" href="tel:+48-515-115-750">515 115 750</a></span>
                 </p>
                 <p>
                   <span>mail: </span>
-                  <span><a href="mailto:lukasz.gorecki@hotmail.com">lukasz.gorecki@hotmail.com</a></span>
+                  <span><a className="text-white" href="mailto:lukasz.gorecki@hotmail.com">lukasz.gorecki@hotmail.com</a></span>
                 </p>
               </div>
             </div>
