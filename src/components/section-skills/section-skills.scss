@@ -1,0 +1,97 @@
+.bg-react {
+  background-color: #61dafb;
+}
+
+.bg-js {
+  background-color: #d6ba32;
+}
+
+.bg-redux {
+  background-color: #764abc;
+}
+
+.bg-html5 {
+  background-color: #e44d26;
+}
+
+.bg-css3 {
+  background-color: #0170ba;
+}
+
+.bg-ps {
+  background-color: #001d26;
+}
+
+$bg-color-purple-light: #70365f;
+$bg-color-pink: #bd3c8a;
+$bg-color-blue: #114c7f;
+
+.section-skills {
+  background-color: $bg-color-purple-light;
+  .title {
+    margin: 0 auto;
+    max-width: 375px;
+    background-color: $bg-color-blue;
+    padding: 15px;
+    margin-top: -11px;
+    font-weight: 700;
+    h3 {
+      text-align: center;
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+  .info-box {
+    padding: 95px 0 55px 0;
+    .left-box {
+      background-color: $bg-color-blue;
+      .title-box {
+        max-width: 220px;
+        margin: 0 auto;
+        .title {
+          background-color: $bg-color-pink;
+          text-align: center;
+          padding: 16px;
+          margin-top: -37px;
+          font-size: 16px;
+          font-weight: 700;
+        }
+      }
+      .inside-text {
+        font-size: 21px;
+        padding: 18px 10px 25px 10px;
+        line-height: 27px;
+        .inside-text--box {
+          padding: 20px 40px 5px 35px;
+          border: 1px solid white;
+          h3 {
+            font-size: 29px;
+            font-weight: 700;
+            margin: 0;
+          }
+          p {
+            padding-bottom: 15px;
+          }
+        }
+      }
+    }
+    .skills-box {
+      .skill {
+        margin-bottom: 20px;
+        align-items: center;
+        p {
+          color: white;
+          padding-right: 20px;
+          font-size: 21px;
+          margin-top: none;
+          margin-bottom: none;
+          margin: 0;
+        }
+      }
+      .progress {
+        width: 70%;
+        height: 7px;
+      }
+    }
+  }
+}

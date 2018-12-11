@@ -1,0 +1,69 @@
+$bg-color-blue: #114c7f;
+$bg-color-blue-light: #62dafc;
+$bg-color-purple-dark: #472f51;
+$bg-color-pink: #bd3c8a;
+
+.section-contact {
+  background-color: $bg-color-purple-dark;
+  .title {
+    margin: 0 auto;
+    max-width: 375px;
+    background-color: $bg-color-blue;
+    padding: 15px;
+    margin-top: -11px;
+    font-weight: 700;
+    h3 {
+      text-align: center;
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+  .info-box {
+    padding: 116px 0 0;
+    text-align: center;
+    p {
+      font-size: 21px;
+      font-weight: 300;
+    }
+  }
+  .form-box {
+    padding-top: 40px;
+    padding-bottom: 200px;
+    .form-box--name {
+      ::placeholder {
+        color: $bg-color-blue-light;
+      }
+      .name-input {
+        border: 2px solid $bg-color-blue-light;
+        border-radius: 0;
+        background-color: transparent;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 25px;
+        color: $bg-color-blue-light;
+      }
+    }
+    .form-box--email {
+      ::placeholder {
+        color: $bg-color-pink;
+      }
+      .email-input {
+        border: 2px solid $bg-color-pink;
+        border-radius: 0;
+        background-color: transparent;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 25px;
+        color: $bg-color-pink;
+      }
+    }
+    button {
+      background-color: $bg-color-pink;
+      border-color: $bg-color-pink;
+      border-radius: 0;
+      width: 220px;
+      font-size: 16px;
+      padding: 12px;
+    }
+  }
+}

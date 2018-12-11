@@ -1,5 +1,11 @@
 // >>>>>>>>>>> global <<<<<<<<
 
+.container {
+  @media (min-width: 1300px) {
+    max-width: 1200px;
+  }
+}
+
 hr {
   border-top: 1px solid rgba(255, 255, 255, 0.9);
 }
@@ -13,16 +19,32 @@ button {
 $bg-color-blue: #114c7f;
 $bg-color-light-blue: #c0d3df;
 $bg-color-pink: #bd3c8a;
+$bg-color-gray: #2e2f32;
 // >>>>>>>>>>> global end <<<<<<<<<<
 
 // >>>>>>>>>>> header <<<<<<<<<<
 .section-about-me {
   .nav-bar {
+    z-index: 1100;
     ul {
       li {
         color: $bg-color-blue;
         font-size: 16px;
         font-weight: 700;
+      }
+      button {
+        font-weight: 700;
+        color: $bg-color-blue;
+        -webkit-transition: color 0.5s ease-out;
+        -moz-transition: color 0.5s ease-out;
+        -o-transition: color 0.5s ease-out;
+        transition: color 0.5s ease-out;
+      }
+      button:hover {
+        color: $bg-color-pink;
+      }
+      button:focus {
+        outline: 0;
       }
     }
   }
@@ -38,40 +60,38 @@ $bg-color-pink: #bd3c8a;
 
 .section-about-me {
   .left-box {
-    background-color: #114c7f;
-    color: white;
-    border-color: #f2da64;
-    outline: 1px solid #fff;
-    outline-offset: -35px;
+    background-color: $bg-color-blue;
     .inside-text {
-      font-size: 22px;
-      padding: 40px 50px 70px 50px;
-      line-height: 28px;
-      h3 {
-        font-size: 29px;
-        font-weight: 700;
-        &:nth-last-of-type(1) {
-          margin-top: 30px;
+      font-size: 21px;
+      padding: 10px 10px 27px 10px;
+      line-height: 27px;
+      .inside-text--box {
+        padding: 20px 50px 36px 35px;
+        border: 1px solid white;
+        h3 {
+          font-size: 29px;
+          font-weight: 700;
+          margin: 0;
         }
-      }
-      p {
-        margin-bottom: 30px;
-      }
-      ul {
-        font-weight: 300;
-        font-family: "Roboto Slab", serif;
-        list-style-type: none;
-        line-height: 28px;
+        p {
+          padding-bottom: 15px;
+        }
+        ul {
+          font-weight: 300;
+          font-family: "Roboto Slab", serif;
+          list-style-type: none;
+          line-height: 27px;
+        }
       }
     }
     .title-box {
-      max-width: 200px;
+      max-width: 220px;
       margin: 0 auto;
       .title {
         background-color: $bg-color-pink;
         text-align: center;
         padding: 15px;
-        margin-top: -25px;
+        margin-top: -35px;
         font-size: 16px;
         font-weight: 700;
       }
@@ -80,50 +100,52 @@ $bg-color-pink: #bd3c8a;
 }
 
 .js {
-  font-family: "Roboto Slab", serif;
-  background-color: #f2da64;
-  color: #2e2f32;
-  font-size: 55px;
-  height: 90px;
-  width: 90px;
-  margin: -45px;
-  font-weight: 700;
+  color: $bg-color-gray;
+  height: 110px;
+  width: 110px;
+  margin: 0 -76px -38px;
+  p {
+    font-family: "Roboto Slab", serif;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 20px;
+  }
 }
 
 .section-about-me {
-  .right-box {
-    background-color: #bd3c8a;
-    height: 200px;
-    outline: 1px solid #fff;
-    outline-offset: -10px;
-    color: white;
-    margin-top: -70px;
-    .react-logo {
-      margin-left: 200px;
-      margin-top: -132px;
-    }
-    .title-box {
-      h6 {
-        font-size: 16px;
-        font-weight: 700;
-        background-color: #114c7f;
-        text-align: center;
-        padding: 15px;
-        margin-top: -25px;
-      }
-      margin: 0 auto;
-      max-width: 240px;
+  .title-box {
+    margin: 0 auto;
+    max-width: 218px;
+    font-size: 16px;
+    h6 {
       font-size: 16px;
+      font-weight: 700;
+      background-color: $bg-color-blue;
+      text-align: center;
+      padding: 15px;
+      margin-top: -37px;
     }
-    .inside-text {
-      line-height: 6px;
-      padding: 30px 50px 30px 30px;
-      h3 {
-        font-weight: 700;
-        font-size: 29px;
+  }
+  .right-box {
+    background-color: $bg-color-pink;
+    height: 250px;
+    margin-top: -80px;
+    padding: 15px 15px 0 15px;
+    .right-box--main {
+      border: 1px solid white;
+      .react-logo {
+        margin-top: -195px;
+        margin-left: 170px;
       }
-      p {
-        font-size: 22px;
+      .inside-text {
+        padding: 55px 0 70px 70px;
+        h3 {
+          font-weight: 700;
+          font-size: 29px;
+        }
+        p {
+          font-size: 21px;
+        }
       }
     }
   }
@@ -132,7 +154,7 @@ $bg-color-pink: #bd3c8a;
 
 // >>>>>>>>>>> nav <<<<<<<<<<
 nav {
-  height: 200px;
+  height: 170px;
 }
 
 // >>>>>>>>>>> nav end <<<<<<<<<<
