@@ -7,6 +7,9 @@ $bg-color-gray: #2e2f32;
     padding-top: 25px;
     .info-box--name {
       margin-top: 30px;
+      hr {
+        margin-bottom: -15px;
+      }
       p:first-of-type {
         font-weight: 700;
         font-size: 21px;

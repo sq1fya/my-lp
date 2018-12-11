@@ -32,7 +32,7 @@ class SectionAboutMe extends Component {
                   <div className="inside-text--box">
                     <h3>Cześć!</h3>
                     <p>
-                      Jestem web developerem i&nbsp;rozwijam się na ścieżce
+                      Jestem web developerem i rozwijam się na ścieżce
                       javascriptu
                     </p>
                     <hr className="border-white" />
