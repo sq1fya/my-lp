@@ -17,7 +17,7 @@ $bg-color-blue: #114c7f;
     }
   }
   .info-box {
-    padding: 116px 0 0px;
+    padding: 116px 0 0;
     text-align: center;
     color: white;
     p {
@@ -34,7 +34,7 @@ $bg-color-blue: #114c7f;
       }
       .name-input {
         border: 2px solid #62dafc;
-        border-radius: 0px;
+        border-radius: 0;
         background-color: transparent;
         font-size: 16px;
         font-weight: 700;
@@ -48,7 +48,7 @@ $bg-color-blue: #114c7f;
       }
       .email-input {
         border: 2px solid #bd4573;
-        border-radius: 0px;
+        border-radius: 0;
         background-color: transparent;
         font-size: 16px;
         font-weight: 700;
@@ -59,7 +59,7 @@ $bg-color-blue: #114c7f;
     button {
       background-color: #bd4573;
       border-color: #bd4573;
-      border-radius: 0px;
+      border-radius: 0;
       width: 220px;
       font-size: 16px;
       padding: 12px;

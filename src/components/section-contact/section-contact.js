@@ -15,24 +15,24 @@ class SectionContact extends Component {
               <p>napisz do mnie:</p>
             </div>
             <form className="form-box col-lg-5 mx-auto">
-              <div class="form-group form-box--name">
+              <div className="form-group form-box--name">
                 <input
                   type="text"
-                  class="name-input form-control form-control-lg"
+                  className="name-input form-control form-control-lg"
                   id="validationDefault01"
                   placeholder="Imię i nazwisko / Firma"
                 />
               </div>
-              <div class="form-group form-box--email">
+              <div className="form-group form-box--email">
                 <input
                   type="email"
-                  class="email-input form-control form-control-lg"
+                  className="email-input form-control form-control-lg"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Email"
                 />
               </div>
-              <button type="submit" class="btn btn-primary float-right btn-lg">
+              <button type="submit" className="btn btn-primary float-right btn-lg">
                 Wyślij
               </button>
             </form>

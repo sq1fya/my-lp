@@ -104,7 +104,7 @@ $bg-color-pink: #bd3c8a;
   color: #2e2f32;
   height: 110px;
   width: 110px;
-  margin: 0px -76px -38px;
+  margin: 0 -76px -38px;
   p {
     font-family: "Roboto Slab", serif;
     font-size: 70px;
@@ -132,7 +132,7 @@ $bg-color-pink: #bd3c8a;
     height: 250px;
     color: white;
     margin-top: -80px;
-    padding: 15px 15px 0px 15px;
+    padding: 15px 15px 0 15px;
     .right-box--main {
       border: 1px solid white;
       .react-logo {
@@ -140,7 +140,7 @@ $bg-color-pink: #bd3c8a;
         margin-left: 170px;
       }
       .inside-text {
-        padding: 55px 0px 70px 70px;
+        padding: 55px 0 70px 70px;
         h3 {
           font-weight: 700;
           font-size: 29px;

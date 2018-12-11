@@ -36,7 +36,7 @@ class SectionSkills extends Component {
                   <p>React</p>
                   <div className="progress">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated bg-react"
+                      className="progress-bar progress-bar-striped progress-bar-animated bg-react"
                       role="progressbar"
                       aria-valuenow="40"
                       aria-valuemin="0"
@@ -49,7 +49,7 @@ class SectionSkills extends Component {
                   <p>Javascript</p>
                   <div className="progress">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated bg-js"
+                      className="progress-bar progress-bar-striped progress-bar-animated bg-js"
                       role="progressbar"
                       aria-valuenow="40"
                       aria-valuemin="0"
@@ -62,7 +62,7 @@ class SectionSkills extends Component {
                   <p>Redux.js</p>
                   <div className="progress">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated bg-redux"
+                      className="progress-bar progress-bar-striped progress-bar-animated bg-redux"
                       role="progressbar"
                       aria-valuenow="40"
                       aria-valuemin="0"
@@ -75,7 +75,7 @@ class SectionSkills extends Component {
                   <p>RWD</p>
                   <div className="progress">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
+                      className="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
                       role="progressbar"
                       aria-valuenow="40"
                       aria-valuemin="0"
@@ -88,7 +88,7 @@ class SectionSkills extends Component {
                   <p>HTML 5</p>
                   <div className="progress">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated bg-html5"
+                      className="progress-bar progress-bar-striped progress-bar-animated bg-html5"
                       role="progressbar"
                       aria-valuenow="40"
                       aria-valuemin="0"
@@ -101,7 +101,7 @@ class SectionSkills extends Component {
                   <p>CSS3</p>
                   <div className="progress">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated bg-css3"
+                      className="progress-bar progress-bar-striped progress-bar-animated bg-css3"
                       role="progressbar"
                       aria-valuenow="40"
                       aria-valuemin="0"
@@ -114,7 +114,7 @@ class SectionSkills extends Component {
                   <p>Photoshop</p>
                   <div className="progress">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated bg-ps"
+                      className="progress-bar progress-bar-striped progress-bar-animated bg-ps"
                       role="progressbar"
                       aria-valuenow="40"
                       aria-valuemin="0"
@@ -127,7 +127,7 @@ class SectionSkills extends Component {
                   <p>Praca w Scrumie</p>
                   <div className="progress">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                      className="progress-bar progress-bar-striped progress-bar-animated bg-danger"
                       role="progressbar"
                       aria-valuenow="40"
                       aria-valuemin="0"
