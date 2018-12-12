@@ -4,13 +4,13 @@ import "./section-contact.scss";
 class SectionContact extends Component {
   render() {
     return (
-      <section className="section-contact container-fluid">
+      <section className="section-contact container-fluid p-0">
         <div className="row">
           <div className="container">
-            <div className="title text-white mt-4">
+            <div className="title text-white mt-4 col-8 col-md-6">
               <h3>Kontakt</h3>
             </div>
-            <div className="col info-box text-white pt-5">
+            <div className="col info-box text-white pt-3">
               <h3>Jeśli jesteś zainteresowany współpracą</h3>
               <p>napisz do mnie:</p>
             </div>
