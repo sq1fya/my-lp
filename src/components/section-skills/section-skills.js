@@ -10,7 +10,7 @@ class SectionSkills extends Component {
             <div className="title mt-4 col-8 col-md-6">
               <h3 className="text-white">Umiejętności</h3>
             </div>
-            <div className="row info-box d-flex flex-wrap justify-content-between flex-column-reverse">
+            <div className="row info-box d-flex flex-wrap justify-content-between flex-column-reverse flex-lg-row">
               <div className="left-box col-md-4 text-white">
                 <div className="title-box justify-content-center">
                   <h6 className="title">Jestę juniorę</h6>
