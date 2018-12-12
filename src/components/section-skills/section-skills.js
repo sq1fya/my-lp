@@ -31,8 +31,8 @@ class SectionSkills extends Component {
                   </div>
                 </div>
               </div>
-              <div className="skills-box col-md-7 col-12 align-self-center">
-                <div className="skill row d-flex justify-content-end">
+              <div className="skills-box col-md-12 col-12 col-lg-7 align-self-center">
+                <div className="skill row justify-content-center justify-content-lg-end">
                   <p>React</p>
                   <div className="progress">
                     <div
@@ -45,7 +45,7 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row d-flex justify-content-end">
+                <div className="skill row justify-content-center justify-content-lg-end">
                   <p>Javascript</p>
                   <div className="progress">
                     <div
@@ -58,7 +58,7 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row d-flex justify-content-end">
+                <div className="skill row justify-content-center justify-content-lg-end">
                   <p>Redux.js</p>
                   <div className="progress">
                     <div
@@ -71,7 +71,7 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row d-flex justify-content-end">
+                <div className="skill row justify-content-center justify-content-lg-end">
                   <p>RWD</p>
                   <div className="progress">
                     <div
@@ -84,7 +84,7 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row d-flex justify-content-end">
+                <div className="skill row justify-content-center justify-content-lg-end">
                   <p>HTML 5</p>
                   <div className="progress">
                     <div
@@ -97,7 +97,7 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row d-flex justify-content-end">
+                <div className="skill row justify-content-center justify-content-lg-end">
                   <p>CSS3</p>
                   <div className="progress">
                     <div
@@ -110,7 +110,7 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row d-flex justify-content-end">
+                <div className="skill row justify-content-center justify-content-lg-end">
                   <p>Photoshop</p>
                   <div className="progress">
                     <div
@@ -123,7 +123,7 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row d-flex justify-content-end">
+                <div className="skill row justify-content-center justify-content-lg-end">
                   <p>Praca w Scrumie</p>
                   <div className="progress">
                     <div
