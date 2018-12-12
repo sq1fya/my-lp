@@ -1,3 +1,12 @@
+@media only screen and (min-width: 992px) {
+  .section-skills {
+    .title {
+    margin-top: -11px !important;
+
+    }
+  }
+}
+
 .bg-react {
   background-color: #61dafb;
 }
@@ -26,7 +35,6 @@ $bg-color-purple-light: #70365f;
 $bg-color-pink: #bd3c8a;
 $bg-color-blue: #114c7f;
 
-
 .section-skills {
   background-color: $bg-color-purple-light;
   .title {
@@ -34,7 +42,7 @@ $bg-color-blue: #114c7f;
     max-width: 375px;
     background-color: $bg-color-blue;
     padding: 15px;
-    margin-top: -11px;
+    // margin-top: -11px;
     font-weight: 700;
     h3 {
       text-align: center;

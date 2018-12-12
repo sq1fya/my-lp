@@ -7,10 +7,10 @@ class SectionSkills extends Component {
       <section className="section-skills container-fluid">
         <div className="row">
           <div className="container">
-            <div className="title">
+            <div className="title mt-4 col-8 col-md-6">
               <h3 className="text-white">Umiejętności</h3>
             </div>
-            <div className="row info-box d-flex justify-content-between">
+            <div className="row info-box d-flex flex-wrap justify-content-between">
               <div className="left-box col-md-4 text-white">
                 <div className="title-box justify-content-center">
                   <h6 className="title">Jestę juniorę</h6>
@@ -31,7 +31,7 @@ class SectionSkills extends Component {
                   </div>
                 </div>
               </div>
-              <div className="skills-box col-md-7 align-self-center">
+              <div className="skills-box col-md-7 col-12 align-self-center">
                 <div className="skill row d-flex justify-content-end">
                   <p>React</p>
                   <div className="progress">
