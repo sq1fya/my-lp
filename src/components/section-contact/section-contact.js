@@ -14,7 +14,7 @@ class SectionContact extends Component {
               <h3>Jeśli jesteś zainteresowany współpracą</h3>
               <p>napisz do mnie:</p>
             </div>
-            <form className="form-box col-lg-5 col-10 mx-auto">
+            <form className="form-box col-lg-5 col-12 col-md-8 mx-auto">
               <div className="form-group form-box--name">
                 <input
                   type="text"
