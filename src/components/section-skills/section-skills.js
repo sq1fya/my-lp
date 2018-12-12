@@ -6,12 +6,12 @@ class SectionSkills extends Component {
     return (
       <section className="section-skills container-fluid">
         <div className="row">
-          <div className="container">
+          <div className="container m-0 m-lg-auto col-12 col-lg-9">
             <div className="title mt-4 col-8 col-md-6">
               <h3 className="text-white">Umiejętności</h3>
             </div>
             <div className="info-box row d-flex flex-wrap justify-content-between flex-column-reverse flex-lg-row">
-              <div className="left-box col-md-4 text-white">
+              <div className="left-box text-white col-12 col-lg-4">
                 <div className="title-box justify-content-center">
                   <h6 className="title">Jestę juniorę</h6>
                 </div>
