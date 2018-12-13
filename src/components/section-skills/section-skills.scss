@@ -13,6 +13,14 @@
         }
       }
       .skills-box {
+        .skill {
+          p {
+            padding: 0 20px 0 0 !important;
+
+          }
+          .progress {
+          }
+        }
       }
     }
   }
@@ -109,7 +117,7 @@ $bg-color-blue: #114c7f;
         }
       }
       .progress {
-        width: 70%;
+        width: 60%;
         height: 7px;
       }
     }
