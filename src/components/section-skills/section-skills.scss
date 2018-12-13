@@ -1,7 +1,7 @@
 @media only screen and (min-width: 992px) {
   .section-skills {
     .title {
-    margin-top: -11px !important;
+      margin-top: -11px !important;
     }
     .info-box {
       padding: 95px 0 55px 0 !important;
@@ -16,9 +16,9 @@
         .skill {
           p {
             padding: 0 20px 0 0 !important;
-
           }
           .progress {
+            width: 60% !important;
           }
         }
       }
@@ -117,7 +117,6 @@ $bg-color-blue: #114c7f;
         }
       }
       .progress {
-        width: 60%;
         height: 7px;
       }
     }

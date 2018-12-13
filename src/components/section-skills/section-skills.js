@@ -10,7 +10,7 @@ class SectionSkills extends Component {
             <div className="title mt-4 col-8 col-md-6">
               <h3 className="text-white">Umiejętności</h3>
             </div>
-            <div className="info-box row d-flex flex-wrap justify-content-between flex-column-reverse flex-lg-row pb-0">
+            <div className="info-box row d-flex flex-wrap justify-content-between flex-column-reverse flex-lg-row pb-0 pt-4">
               <div className="left-box text-white col-12 col-md-12 col-lg-5 col-xl-4">
                 <div className="title-box justify-content-center">
                   <h6 className="title">Jestę juniorę</h6>
@@ -31,10 +31,10 @@ class SectionSkills extends Component {
                   </div>
                 </div>
               </div>
-              <div className="skills-box justify-content-md-end align-self-center col-12 col-lg-6">
-                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row">
-                  <p className="col text-lg-right text-center">React</p>
-                  <div className="progress col-lg-7 ">
+              <div className="skills-box justify-content-md-end align-self-center col-12 col-lg-6 mb-5 mb-lg-0">
+                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row pl-4 pl-sm-5 pr-4 pr-sm-5 p-lg-0">
+                  <p className="col text-lg-right text-center mb-5 mb-lg-0">React</p>
+                  <div className="progress col-lg-7 w-100">
                     <div
                       className="row progress-bar progress-bar-striped progress-bar-animated bg-react"
                       role="progressbar"
@@ -45,9 +45,9 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row">
-                  <p className="col text-right">Javascript</p>
-                  <div className="progress col-7">
+                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row pl-4 pl-sm-5 pr-4 pr-sm-5 p-lg-0">
+                  <p className="col text-lg-right text-center mb-5 mb-lg-0">Javascript</p>
+                  <div className="progress col-lg-7 w-100">
                     <div
                       className="row progress-bar progress-bar-striped progress-bar-animated bg-js"
                       role="progressbar"
@@ -58,9 +58,9 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row">
-                  <p className="col text-right">Redux.js</p>
-                  <div className="progress col-7">
+                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row pl-4 pl-sm-5 pr-4 pr-sm-5 p-lg-0">
+                  <p className="col text-lg-right text-center mb-5 mb-lg-0">Redux.js</p>
+                  <div className="progress col-lg-7 w-100">
                     <div
                       className="row progress-bar progress-bar-striped progress-bar-animated bg-redux"
                       role="progressbar"
@@ -71,9 +71,9 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row">
-                  <p className="col text-right">RWD</p>
-                  <div className="progress col-7">
+                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row pl-4 pl-sm-5 pr-4 pr-sm-5 p-lg-0">
+                  <p className="col text-lg-right text-center mb-5 mb-lg-0">RWD</p>
+                  <div className="progress col-lg-7 w-100">
                     <div
                       className="row progress-bar progress-bar-striped progress-bar-animated bg-secondary"
                       role="progressbar"
@@ -84,9 +84,9 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row">
-                  <p className="col text-right">HTML 5</p>
-                  <div className="progress col-7">
+                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row pl-4 pl-sm-5 pr-4 pr-sm-5 p-lg-0">
+                  <p className="col text-lg-right text-center mb-5 mb-lg-0">HTML 5</p>
+                  <div className="progress col-lg-7 w-100">
                     <div
                       className="row progress-bar progress-bar-striped progress-bar-animated bg-html5"
                       role="progressbar"
@@ -97,9 +97,9 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row">
-                  <p className="col text-right">CSS3</p>
-                  <div className="progress col-7">
+                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row pl-4 pl-sm-5 pr-4 pr-sm-5 p-lg-0">
+                  <p className="col text-lg-right text-center mb-5 mb-lg-0">CSS3</p>
+                  <div className="progress col-lg-7 w-100">
                     <div
                       className="row progress-bar progress-bar-striped progress-bar-animated bg-css3"
                       role="progressbar"
@@ -110,9 +110,9 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row">
-                  <p className="col text-right">Photoshop</p>
-                  <div className="progress col-7">
+                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row pl-4 pl-sm-5 pr-4 pr-sm-5 p-lg-0">
+                  <p className="col text-lg-right text-center mb-5 mb-lg-0">Photoshop</p>
+                  <div className="progress col-lg-7 w-100">
                     <div
                       className="row progress-bar progress-bar-striped progress-bar-animated bg-ps"
                       role="progressbar"
@@ -123,9 +123,9 @@ class SectionSkills extends Component {
                     />
                   </div>
                 </div>
-                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row">
-                  <p className="col text-right">Praca w Scrumie</p>
-                  <div className="progress col-7">
+                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row pl-4 pl-sm-5 pr-4 pr-sm-5 p-lg-0">
+                  <p className="col text-lg-right text-center mb-5 mb-lg-0">Praca w Scrumie</p>
+                  <div className="progress col-lg-7 w-100">
                     <div
                       className="row progress-bar progress-bar-striped progress-bar-animated bg-danger"
                       role="progressbar"
