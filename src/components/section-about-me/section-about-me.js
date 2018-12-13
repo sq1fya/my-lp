@@ -23,7 +23,7 @@ class SectionAboutMe extends Component {
                 </ul>
               </nav>
             </header>
-            <div className="d-flex flex-column d-lg-block">
+            <div className="d-flex flex-column-reverse d-lg-block">
             <div className="row d-flex align-items-end">
               <div className="left-box col-4 text-white">
                 <div className="title-box justify-content-center">
@@ -50,9 +50,9 @@ class SectionAboutMe extends Component {
                 <p>JS</p>
               </div>
             </div>
-            <div className="right-box col-6 float-right text-white">
+            <div className="right-box mt-0 col-6 float-right text-white">
               <div className="right-box--main">
-                <div className="react-logo position-absolute">
+                <div className="react-logo position-absolute d-none d-lg-block">
                   <img src={logo} className="App-logo" alt="react-logo" />
                 </div>
                 <div className="title-box position-relative">
