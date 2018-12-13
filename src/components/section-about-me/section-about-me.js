@@ -57,7 +57,7 @@ class SectionAboutMe extends Component {
                   <div className="title-box position-relative">
                     <h6 className="title">Jestę developerę</h6>
                   </div>
-                  <div className="react-logo-mini d-xl-none d-block w-25 mx-auto">
+                  <div className="react-logo-mini rotate-center d-xl-none d-block w-25 mx-auto">
                     <img src={logo} className="App-logo" alt="react-logo" />
                   </div>
                   <div className="inside-text text-center text-lg-left p-md-2 pb-md-4">
