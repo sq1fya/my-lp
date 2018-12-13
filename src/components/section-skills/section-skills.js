@@ -31,10 +31,10 @@ class SectionSkills extends Component {
                   </div>
                 </div>
               </div>
-              <div className="skills-box justify-content-md-end align-self-center col-12 col-md-6">
+              <div className="skills-box justify-content-md-end align-self-center col-12 col-lg-6">
                 <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row">
-                  <p className="col text-right">React</p>
-                  <div className="progress col-7">
+                  <p className="col text-lg-right text-center">React</p>
+                  <div className="progress col-lg-7 ">
                     <div
                       className="row progress-bar progress-bar-striped progress-bar-animated bg-react"
                       role="progressbar"
