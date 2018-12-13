@@ -6,7 +6,7 @@ class SectionAboutMe extends Component {
     return (
       <section className="section-about-me background-image container-fluid">
         <div className="row">
-          <div className="container">
+          <div className="container m-md-0 m-lg-auto">
             <header>
               <nav className="navbar nav-bar justify-content-end">
                 <ul className="nav">
@@ -52,11 +52,14 @@ class SectionAboutMe extends Component {
             </div>
             <div className="right-box mt-0 col-6 float-right text-white">
               <div className="right-box--main">
-                <div className="react-logo position-absolute d-none d-lg-block">
+                <div className="react-logo position-absolute d-none d-xl-block">
                   <img src={logo} className="App-logo" alt="react-logo" />
                 </div>
                 <div className="title-box position-relative">
                   <h6 className="title">Jestę developerę</h6>
+                </div>
+                <div className="react-logo-mini d-xl-none d-block w-25 mx-auto">
+                  <img src={logo} className="App-logo" alt="react-logo" />
                 </div>
                 <div className="inside-text">
                   <h3>Łukasz Górecki</h3>

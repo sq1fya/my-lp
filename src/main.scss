@@ -2,6 +2,13 @@
   .section-about-me {
     .right-box {
       margin-top: -80px !important;
+      .right-box--main {
+        border: 1px solid white;
+        .react-logo {
+          // margin-top: -195px;
+          // margin-left: 170px;
+        }
+      }
     }
   }
 }
@@ -144,6 +151,16 @@ $bg-color-gray: #2e2f32;
       .react-logo {
         margin-top: -195px;
         margin-left: 170px;
+        .App-logo {
+          animation: App-logo-spin infinite 20s linear;
+          height: 450px;
+        }
+        .react-logo-mini {
+          .App-logo-mini {
+            animation: App-logo-spin infinite 20s linear;
+            // height: 20px;
+          }
+        }
       }
       .inside-text {
         padding: 55px 0 70px 70px;
@@ -166,3 +183,12 @@ nav {
 }
 
 // >>>>>>>>>>> nav end <<<<<<<<<<
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
