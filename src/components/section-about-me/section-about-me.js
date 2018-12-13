@@ -23,6 +23,7 @@ class SectionAboutMe extends Component {
                 </ul>
               </nav>
             </header>
+            <div className="d-flex flex-column d-lg-block">
             <div className="row d-flex align-items-end">
               <div className="left-box col-4 text-white">
                 <div className="title-box justify-content-center">
@@ -62,6 +63,7 @@ class SectionAboutMe extends Component {
                   <p className="mb-auto">Junior frontend developer</p>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
