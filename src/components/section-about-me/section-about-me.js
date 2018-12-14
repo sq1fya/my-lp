@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import logo from "../../gfx/logo.svg";
+import lukasz from "../../gfx/lukasz.png";
 
 class SectionAboutMe extends Component {
   render() {
     return (
-      <section className="section-about-me background-image container-fluid h-auto">
+      <section className="position-relative section-about-me background-image container-fluid h-auto">
+        <div className="position-relative position-lg-absolute background-image-media row"> <img src={lukasz}></img></div>
         <div className="row">
           <div className="container col-12 col-lg-9 m-md-0 m-lg-auto p-0 pl-lg-3">
             <header>

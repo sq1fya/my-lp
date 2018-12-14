@@ -3,6 +3,9 @@
     height: 857px !important;
   }
   .section-about-me {
+    .background-image-media {
+      // height: 500px;
+    }
     .left-box {
       .title-box {
         .title {
@@ -53,6 +56,9 @@ $bg-color-gray: #2e2f32;
 
 // >>>>>>>>>>> header <<<<<<<<<<
 .section-about-me {
+  .background-image-media {
+    // height: 500px;
+  }
   .nav-bar {
     z-index: 1100;
     ul {
