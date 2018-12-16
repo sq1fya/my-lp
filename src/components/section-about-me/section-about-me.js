@@ -6,29 +6,22 @@ class SectionAboutMe extends Component {
   render() {
     return (
       <section className="position-relative section-about-me background-image container-fluid h-auto">
-          <div className="background-image-media row" style={{top: "0", left: "0", bottom: "0", right: "0", margin:"auto"}}>
-            <img className="" src={lukasz} alt="lukasz"></img>
-          </div>
+        <div
+          className="background-image-media row"
+          style={{
+            top: "0",
+            left: "0",
+            bottom: "0",
+            right: "0",
+            margin: "auto"
+          }}
+        >
+          <img className="" src={lukasz} alt="lukasz" />
+        </div>
         <div className="row ">
           <div className="container col-12 col-lg-9 m-md-0 m-lg-auto p-0 pl-lg-3">
-            <header>
-              <nav className="navbar nav-bar justify-content-end">
-                <ul className="nav">
-                  <li className="nav-item">
-                    <button className="nav-link" href="#">
-                      Umiejętności
-                    </button>
-                  </li>
-                  <li>
-                    <button className="nav-link" href="#">
-                      Kontakt
-                    </button>
-                  </li>
-                </ul>
-              </nav>
-            </header>
             <div className="d-flex flex-column-reverse d-lg-block">
-              <div className="row d-flex align-items-end">
+              <div className="m-0 p-0 row d-flex align-items-end">
                 <div className="left-box col-lg-4 text-white">
                   <div className="title-box justify-content-center">
                     <h6 className="title mt-0">Jestę frontendowcę</h6>

@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'jquery/dist/jquery';
+import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/scss/bootstrap.scss';
 import './index.scss';
 import App from './App';
