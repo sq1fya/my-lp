@@ -62,18 +62,7 @@ $bg-color-gray: #2e2f32;
 
 // >>>>>>>>>>> header <<<<<<<<<<
 .section-about-me {
-  .background-image-media{
-    display: block;
-    text-align: center;
-
-    img {
-      max-width: 400px;
-      width: 100%;
-    }
-  }
   .nav-bar {
-    // display: none;
-    z-index: 1100;
     ul {
       li {
         color: $bg-color-blue;
@@ -94,6 +83,15 @@ $bg-color-gray: #2e2f32;
       button:focus {
         outline: 0;
       }
+    }
+  }
+  .background-image-media{
+    display: block;
+    text-align: center;
+
+    img {
+      max-width: 400px;
+      width: 100%;
     }
   }
 }

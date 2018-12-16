@@ -5,44 +5,42 @@ import lukasz from "../../gfx/lukasz.png";
 class SectionAboutMe extends Component {
   render() {
     return (
-      <section className="position-relative section-about-me background-image container-fluid h-auto">
-        
-        <div className="container-fluid">
-        <div className="row">
-          <div className="container col-lg-9">
-            <header className="container p-0">
-              <nav class="navbar d-block nav-bar navbar-expand-lg navbar-light p-0">
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarText"
-                  aria-controls="navbarText"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon" />
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">
-                        Umiejętności <span class="sr-only">(current)</span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">
-                        Kontakt
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </header>
+      <section className="section-about-me position-relative background-image container-fluid h-auto">
+        <header className="container-fluid">
+          <div className="row">
+            <div className="container col-lg-9">
+              <div className="container p-0">
+                <nav class="navbar d-block nav-bar navbar-expand-lg navbar-light p-0">
+                  <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarText"
+                    aria-controls="navbarText"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span className="navbar-toggler-icon" />
+                  </button>
+                  <div className="collapse navbar-collapse" id="navbarText">
+                    <ul className="navbar-nav mr-auto text-right">
+                      <li className="nav-item active">
+                        <button className="nav-link" href="#">
+                          Umiejętności <span class="sr-only">(current)</span>
+                        </button>
+                      </li>
+                      <li className="nav-item">
+                        <button className="nav-link" href="#">
+                          Kontakt
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-
+        </header>
         <div
           className="background-image-media row"
           style={{
