@@ -6,8 +6,10 @@ class SectionAboutMe extends Component {
   render() {
     return (
       <section className="position-relative section-about-me background-image container-fluid h-auto">
-        <div className="position-relative position-absolute background-image-media row" style={{overflow: "auto", width: "50%", top: "0", left: "0", bottom: "0", right: "0", margin:"auto"}}> <img className="" src={lukasz} alt="lukasz"></img></div>
-        <div className="row">
+          <div className="background-image-media row" style={{top: "0", left: "0", bottom: "0", right: "0", margin:"auto"}}>
+            <img className="" src={lukasz} alt="lukasz"></img>
+          </div>
+        <div className="row ">
           <div className="container col-12 col-lg-9 m-md-0 m-lg-auto p-0 pl-lg-3">
             <header>
               <nav className="navbar nav-bar justify-content-end">

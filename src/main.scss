@@ -1,11 +1,19 @@
 @media only screen and (min-width: 992px) {
-  .section-about-me.background-image{
+  .section-about-me.background-image {
     height: 857px !important;
-  }
-  .section-about-me {
     .background-image-media {
-      // height: 500px;
+      position: absolute;
+      img {
+        width: auto;
+        max-width: none;
+      }
     }
+    .navbar {
+      display: flex;
+    }
+  }
+
+  .section-about-me {
     .left-box {
       .title-box {
         .title {
@@ -13,7 +21,6 @@
         }
       }
     }
-
     .right-box {
       margin-top: -80px !important;
       .right-box--main {
@@ -56,10 +63,17 @@ $bg-color-gray: #2e2f32;
 
 // >>>>>>>>>>> header <<<<<<<<<<
 .section-about-me {
-  .background-image-media {
-    // height: 500px;
+  .background-image-media{
+    display: block;
+    text-align: center;
+
+    img {
+      max-width: 400px;
+      width: 100%;
+    }
   }
   .nav-bar {
+    display: none;
     z-index: 1100;
     ul {
       li {
@@ -86,7 +100,7 @@ $bg-color-gray: #2e2f32;
 }
 
 .section-about-me.background-image {
-  background-image: url("./gfx/lukasz.png");
+  // background-image: url("./gfx/lukasz.png");
   // height: 857px;
   background-repeat: no-repeat;
   background-color: $bg-color-light-blue;
@@ -214,32 +228,30 @@ nav {
   }
 }
 
-
 // new animation react logo
 
-
 .rotate-center {
-	-webkit-animation: rotate-center 20s linear infinite both;
-	        animation: rotate-center 20s linear infinite both;
+  -webkit-animation: rotate-center 20s linear infinite both;
+  animation: rotate-center 20s linear infinite both;
 }
 
 @-webkit-keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
-            transform: rotate(0);
+    transform: rotate(0);
   }
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 @keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
-            transform: rotate(0);
+    transform: rotate(0);
   }
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
