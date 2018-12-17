@@ -92,7 +92,7 @@ class SectionAboutMe extends Component {
                   <div className="react-logo-mini rotate-center d-xl-none d-block w-25 mx-auto">
                     <img src={logo} className="App-logo" alt="react-logo" />
                   </div>
-                  <div className="inside-text text-center text-lg-left p-md-2 pb-md-4">
+                  <div className="inside-text text-center p-md-2 pb-md-4 text-xl-left pt-lg-4 pb-lg-4 pl-xl-5 pt-xl-5 pb-xl-5">
                     <h3>Łukasz Górecki</h3>
                     <p className="mb-auto">Junior frontend developer</p>
                   </div>
