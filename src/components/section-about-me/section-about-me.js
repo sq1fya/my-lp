@@ -10,7 +10,7 @@ class SectionAboutMe extends Component {
           <div className="row">
             <div className="container col-lg-9">
               <div className="container p-0">
-                <nav class="navbar d-block nav-bar navbar-expand-lg navbar-light p-0">
+                <nav className="navbar d-block nav-bar navbar-expand-lg navbar-light p-0">
                   <button
                     className="navbar-toggler"
                     type="button"
@@ -26,7 +26,7 @@ class SectionAboutMe extends Component {
                     <ul className="navbar-nav mr-auto text-right">
                       <li className="nav-item active">
                         <button className="nav-link" href="#">
-                          Umiejętności <span class="sr-only">(current)</span>
+                          Umiejętności <span className="sr-only">(current)</span>
                         </button>
                       </li>
                       <li className="nav-item">

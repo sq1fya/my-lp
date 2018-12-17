@@ -15,7 +15,7 @@ class SectionFooter extends Component {
               </div>
               <div className="info-box--contact col-lg-5 col-md-10 col-sm-12 text-lg-right">
                 <p>
-                  <spam>tel: </spam>
+                  <span>tel: </span>
                   <span><a className="text-white" href="tel:+48-515-115-750">515 115 750</a></span>
                 </p>
                 <p>
