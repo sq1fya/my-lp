@@ -217,11 +217,13 @@ $bg-color-gray: #2e2f32;
     .right-box--main {
       border: 1px solid white;
       .react-logo {
-        margin-top: -195px;
-        margin-left: 170px;
+        margin-top: -215px;
+        margin-left: 135px;
+        width: 450px;
+        height: 450px;
         .App-logo {
           animation: App-logo-spin infinite 20s linear;
-          height: 450px;
+          height: 100%;
         }
         .react-logo-mini {
           .App-logo-mini {
