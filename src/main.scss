@@ -6,6 +6,7 @@
       img {
         width: auto;
         max-width: none;
+        margin-top: 0;
       }
     }
     .navbar {
@@ -63,35 +64,69 @@ $bg-color-gray: #2e2f32;
 // >>>>>>>>>>> header <<<<<<<<<<
 .section-about-me {
   .nav-bar {
+    .navbar-toggler:hover {
+      border-color: $bg-color-pink !important;
+
+      .navbar-toggler-icon {
+        border-color: $bg-color-pink !important;
+      }
+    }
+    .navbar-toggler:focus {
+      outline: 0;
+    }
     ul {
       li {
-        color: $bg-color-blue;
-        font-size: 16px;
-        font-weight: 700;
-      }
-      button {
-        font-weight: 700;
-        color: $bg-color-blue;
-        -webkit-transition: color 0.5s ease-out;
-        -moz-transition: color 0.5s ease-out;
-        -o-transition: color 0.5s ease-out;
-        transition: color 0.5s ease-out;
-      }
-      button:hover {
-        color: $bg-color-pink;
-      }
-      button:focus {
-        outline: 0;
+        .nav-link {
+          color: $bg-color-blue !important;
+          font-size: 16px !important;
+          font-weight: 700 !important;
+          -webkit-transition: color 0.5s ease-out;
+          -moz-transition: color 0.5s ease-out;
+          -o-transition: color 0.5s ease-out;
+          transition: color 0.5s ease-out;
+        }
+        .nav-link:hover {
+          color: $bg-color-pink !important;
+        }
+        .nav-link:focus {
+          outline: 0;
+
+        }
       }
     }
   }
-  .background-image-media{
+
+  // .nav-bar {
+  //   ul {
+  //     li {
+  //       color: $bg-color-blue;
+  //       font-size: 16px;
+  //       font-weight: 700;
+  //     }
+  //     button {
+  //       font-weight: 700;
+  //       color: $bg-color-blue;
+  //       -webkit-transition: color 0.5s ease-out;
+  //       -moz-transition: color 0.5s ease-out;
+  //       -o-transition: color 0.5s ease-out;
+  //       transition: color 0.5s ease-out;
+  //     }
+  //     button:hover {
+  //       color: $bg-color-pink;
+  //     }
+  //     button:focus {
+  //       outline: 0;
+  //     }
+  //   }
+  // }
+  .background-image-media {
     display: block;
     text-align: center;
 
     img {
       max-width: 400px;
       width: 100%;
+      margin-top: -110px;
     }
   }
 }
