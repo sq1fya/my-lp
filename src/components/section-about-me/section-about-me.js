@@ -61,7 +61,7 @@ class SectionAboutMe extends Component {
                   <div className="title-box justify-content-center">
                     <h6 className="title mt-0">Jestę frontendowcę</h6>
                   </div>
-                  <div className="inside-text text-center text-lg-left">
+                  <div className="inside-text text-left text-lg-left">
                     <div className="inside-text--box">
                       <h3>Cześć!</h3>
                       <p>
@@ -82,7 +82,7 @@ class SectionAboutMe extends Component {
                 <div className="js sticky-top bg-js d-none d-lg-block" />
               </div>
               <div className="right-box mt-0 col-lg-6 float-right text-white">
-                <div className="right-box--main">
+                <div className="right-box--main p-xl-3">
                   <div className="react-logo position-absolute d-none d-xl-block">
                     <img src={logo} className="App-logo" alt="react-logo" />
                   </div>
@@ -92,7 +92,7 @@ class SectionAboutMe extends Component {
                   <div className="react-logo-mini rotate-center d-xl-none d-block w-25 mx-auto">
                     <img src={logo} className="App-logo" alt="react-logo" />
                   </div>
-                  <div className="inside-text text-center p-md-2 pb-md-4 text-xl-left pt-lg-4 pb-lg-4 pl-xl-5 pt-xl-5 pb-xl-5">
+                  <div className="inside-text text-center pb-5 pt-3 p-md-2 pb-md-4 text-xl-left pt-lg-4 pb-lg-4 pl-xl-5 pt-xl-5 pb-xl-5">
                     <h3>Łukasz Górecki</h3>
                     <p className="mb-auto">Junior frontend developer</p>
                   </div>
