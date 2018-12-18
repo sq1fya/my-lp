@@ -95,30 +95,6 @@ $bg-color-gray: #2e2f32;
       }
     }
   }
-
-  // .nav-bar {
-  //   ul {
-  //     li {
-  //       color: $bg-color-blue;
-  //       font-size: 16px;
-  //       font-weight: 700;
-  //     }
-  //     button {
-  //       font-weight: 700;
-  //       color: $bg-color-blue;
-  //       -webkit-transition: color 0.5s ease-out;
-  //       -moz-transition: color 0.5s ease-out;
-  //       -o-transition: color 0.5s ease-out;
-  //       transition: color 0.5s ease-out;
-  //     }
-  //     button:hover {
-  //       color: $bg-color-pink;
-  //     }
-  //     button:focus {
-  //       outline: 0;
-  //     }
-  //   }
-  // }
   .background-image-media {
     display: block;
     text-align: center;
@@ -132,8 +108,6 @@ $bg-color-gray: #2e2f32;
 }
 
 .section-about-me.background-image {
-  // background-image: url("./gfx/lukasz.png");
-  // height: 857px;
   background-repeat: no-repeat;
   background-color: $bg-color-light-blue;
   background-position: center;
@@ -179,7 +153,6 @@ $bg-color-gray: #2e2f32;
         background-color: $bg-color-pink;
         text-align: center;
         padding: 15px;
-        // margin-top: -35px;
         font-size: 16px;
         font-weight: 700;
       }
@@ -211,8 +184,6 @@ $bg-color-gray: #2e2f32;
   }
   .right-box {
     background-color: $bg-color-pink;
-    // height: 250px;
-    // margin-top: -80px;
     padding: 15px 15px 15px 15px;
     .right-box--main {
       border: 1px solid white;
@@ -228,12 +199,10 @@ $bg-color-gray: #2e2f32;
         .react-logo-mini {
           .App-logo-mini {
             animation: App-logo-spin infinite 20s linear;
-            // height: 20px;
           }
         }
       }
       .inside-text {
-        // padding: 55px 0 70px 70px;
         h3 {
           font-weight: 700;
           font-size: 29px;
