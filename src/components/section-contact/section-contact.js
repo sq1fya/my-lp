@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./section-contact.scss";
+import Form from '../form/form';
 
 class SectionContact extends Component {
   render() {
@@ -38,8 +39,10 @@ class SectionContact extends Component {
                 <button type="submit" value="Send" className="btn btn-primary btn-lg">
                   Wyślij
                 </button>
+                <input type="hidden" name="_next" value="//site.io/thanks.html" />
               </div>
             </form>
+            <Form />
           </div>
         </div>
       </section>
