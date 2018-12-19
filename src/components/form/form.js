@@ -80,6 +80,16 @@ submitHandler = (e) => {
         placeholder='Enter Your Title'
         onChange={ this.changeHandler}
         />
+        <input 
+        type="text"
+        className='form-control'
+        name='body'
+        value={ this.state.body } 
+        placeholder='Enter Email'
+        onChange={ this.changeHandler}
+        />
+
+
         <button type='submit' className='btn btn-success'>SUBMIT</button>
         </form>
         { this.state.isSubmited  && <p>Form Submiter Succes</p> }
