@@ -102,9 +102,6 @@ class SectionAboutMe extends Component {
           </div>
         </div>
       </section>
-
-
-
     );
   }
 }

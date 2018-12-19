@@ -21,6 +21,8 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "https://ptsv2.com/"
+  ,
   "browserslist": [
     ">0.2%",
     "not dead",
