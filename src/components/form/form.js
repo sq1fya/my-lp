@@ -4,7 +4,7 @@ import alertify from "../../../node_modules/alertifyjs/build/alertify.min.js";
 import "../../../node_modules/alertifyjs/build/css/alertify.min.css";
 import "../../../node_modules/alertifyjs/build/css/themes/default.min.css";
 
-const BASE_URL = "https://formcarry.com/s/5QT28VUaMjd";
+const BASE_URL = "https://formcarry.com/s/5QT28VUaMjd"; // API yo send Email on submit
 
 class Form extends React.Component {
   constructor(props) {

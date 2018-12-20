@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "../../gfx/logo.svg";
 import lukasz from "../../gfx/lukasz.png";
+import "./section-about-me.scss";
 
 class SectionAboutMe extends Component {
   render() {
@@ -26,7 +27,8 @@ class SectionAboutMe extends Component {
                     <ul className="navbar-nav mt-4 col-12 justify-content-end">
                       <li className="nav-item">
                         <button className="nav-link" href="#">
-                          Umiejętności <span className="sr-only">(current)</span>
+                          Umiejętności{" "}
+                          <span className="sr-only">(current)</span>
                         </button>
                       </li>
                       <li className="nav-item">

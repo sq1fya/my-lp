@@ -1,0 +1,66 @@
+// Color
+$bg-color-blue: #114c7f;
+$bg-color-light-blue: #c0d3df;
+$bg-color-pink: #bd3c8a;
+$bg-color-gray: #2e2f32;
+
+// Color End
+
+nav {
+  height: 170px;
+}
+
+.section-about-me {
+  .js {
+    background-image: url("../../gfx/JavaScript-logo.png");
+    background-size: contain;
+    height: 110px;
+    width: 110px;
+    margin: 0 -76px -38px;
+  }
+  .left-box {
+    padding: 0;
+    background-color: $bg-color-blue;
+    .inside-text {
+      font-size: 21px;
+      padding: 10px 10px 27px 10px;
+      line-height: 27px;
+      .inside-text--box {
+        padding: 20px 50px 36px 35px;
+        border: 1px solid white;
+        h3 {
+          font-size: 29px;
+          font-weight: 700;
+          margin: 0;
+        }
+        p {
+          padding-bottom: 15px;
+        }
+        ul {
+          font-weight: 300;
+          font-family: "Roboto Slab", serif;
+          list-style-type: none;
+          line-height: 27px;
+        }
+      }
+      .js-mini {
+        background-image: url("../../gfx/JavaScript-logo.png");
+        background-size: contain;
+        height: 50px;
+        width: 50px;
+      }
+    }
+    .title-box {
+      max-width: 220px;
+      margin: 0 auto;
+      .title {
+        background-color: $bg-color-pink;
+        text-align: center;
+        padding: 15px;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: -35px !important;
+      }
+    }
+  }
+}
