@@ -1,3 +1,5 @@
+@import "../../color.scss";
+
 @media only screen and (min-width: 992px) {
   .section-contact {
     .title {
@@ -13,19 +15,12 @@
   }
 }
 
-$bg-color-blue: #114c7f;
-$bg-color-blue-light: #62dafc;
-$bg-color-purple-dark: #472f51;
-$bg-color-pink: #bd3c8a;
-
 .section-contact {
   background-color: $bg-color-purple-dark;
   .title {
     margin: 0 auto;
-    // max-width: 375px;
     background-color: $bg-color-blue;
     padding: 15px;
-    // margin-top: -11px;
     font-weight: 700;
     h3 {
       text-align: center;
@@ -34,7 +29,6 @@ $bg-color-pink: #bd3c8a;
     }
   }
   .info-box {
-    // padding: 116px 0 0;
     text-align: center;
     p {
       font-size: 21px;
@@ -43,7 +37,6 @@ $bg-color-pink: #bd3c8a;
   }
   .form-box {
     padding-top: 40px;
-    // padding-bottom: 200px;
     .form-box--name {
       ::placeholder {
         color: $bg-color-blue-light;
