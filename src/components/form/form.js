@@ -1,4 +1,5 @@
 import React from "react";
+import "./form.scss";
 import axios from "axios"; // For making client request.
 import alertify from "../../../node_modules/alertifyjs/build/alertify.min.js";
 import "../../../node_modules/alertifyjs/build/css/alertify.min.css";
