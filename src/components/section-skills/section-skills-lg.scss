@@ -1,0 +1,27 @@
+@media only screen and (min-width: 992px) {
+  .section-skills {
+    .title {
+      margin-top: -11px !important;
+    }
+    .info-box {
+      padding: 95px 0 55px 0 !important;
+      .left-box {
+        .title-box {
+          .title {
+            margin-top: -37px !important;
+          }
+        }
+      }
+      .skills-box {
+        .skill {
+          p {
+            padding: 0 20px 0 0 !important;
+          }
+          .progress {
+            width: 60% !important;
+          }
+        }
+      }
+    }
+  }
+}

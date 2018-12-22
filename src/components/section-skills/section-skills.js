@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./section-skills.scss";
+import "./section-skills-lg.scss";
 
 class SectionSkills extends Component {
   render() {

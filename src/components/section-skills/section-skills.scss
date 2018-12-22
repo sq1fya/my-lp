@@ -1,57 +1,5 @@
 @import "../../color.scss";
 
-@media only screen and (min-width: 992px) {
-  .section-skills {
-    .title {
-      margin-top: -11px !important;
-    }
-    .info-box {
-      padding: 95px 0 55px 0 !important;
-      .left-box {
-        .title-box {
-          .title {
-            margin-top: -37px !important;
-          }
-        }
-      }
-      .skills-box {
-        .skill {
-          p {
-            padding: 0 20px 0 0 !important;
-          }
-          .progress {
-            width: 60% !important;
-          }
-        }
-      }
-    }
-  }
-}
-
-.bg-react {
-  background-color: $bg-react;
-}
-
-.bg-js {
-  background-color: $bg-js;
-}
-
-.bg-redux {
-  background-color: $bg-redux;
-}
-
-.bg-html5 {
-  background-color: $bg-html5;
-}
-
-.bg-css3 {
-  background-color: $bg-css3;
-}
-
-.bg-ps {
-  background-color: $bg-ps;
-}
-
 .section-skills {
   background-color: $bg-color-purple-light;
   .title {
@@ -101,6 +49,24 @@
       }
     }
     .skills-box {
+      .bg-react {
+        background-color: $bg-react;
+      }
+      .bg-js {
+        background-color: $bg-js;
+      }
+      .bg-redux {
+        background-color: $bg-redux;
+      }
+      .bg-html5 {
+        background-color: $bg-html5;
+      }
+      .bg-css3 {
+        background-color: $bg-css3;
+      }
+      .bg-ps {
+        background-color: $bg-ps;
+      }
       .skill {
         margin-bottom: 20px;
         align-items: center;
