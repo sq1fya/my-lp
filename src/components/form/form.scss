@@ -1,0 +1,41 @@
+@import "../../color.scss";
+
+.form-box {
+  padding-top: 40px;
+  .form-box--name {
+    ::placeholder {
+      color: $bg-color-blue-light;
+    }
+    .name-input {
+      border: 2px solid $bg-color-blue-light;
+      border-radius: 0;
+      background-color: transparent;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 25px;
+      color: $bg-color-blue-light;
+    }
+  }
+  .form-box--email {
+    ::placeholder {
+      color: $bg-color-pink;
+    }
+    .email-input {
+      border: 2px solid $bg-color-pink;
+      border-radius: 0;
+      background-color: transparent;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 25px;
+      color: $bg-color-pink;
+    }
+  }
+  button {
+    background-color: $bg-color-pink;
+    border-color: $bg-color-pink;
+    border-radius: 0;
+    width: 220px;
+    font-size: 16px;
+    padding: 12px;
+  }
+}

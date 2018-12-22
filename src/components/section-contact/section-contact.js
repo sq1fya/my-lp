@@ -16,33 +16,6 @@ class SectionContact extends Component {
               <h3>Jeśli jesteś zainteresowany współpracą</h3>
               <p>napisz do mnie:</p>
             </div>
-            <form action="https://formspree.io/gorecki.lukasz@hotmail.com" method="POST" className="form-box col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5 mx-auto pb-5">
-              <div className="form-group form-box--name">
-                <input
-                  type="text"
-                  name="name"
-                  className="name-input form-control form-control-lg"
-                  id="validationDefault01"
-                  placeholder="Imię i nazwisko / Firma"
-                />
-              </div>
-              <div className="form-group form-box--email">
-                <input
-                  type="email"
-                  name="_replyto"
-                  className="email-input form-control form-control-lg"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Email"
-                />
-              </div>
-              <div className="d-flex justify-content-center float-lg-right">
-                <button type="submit" value="Send" className="btn btn-primary btn-lg">
-                  Wyślij
-                </button>
-                <input type="hidden" name="_next" value="//site.io/thanks.html" />
-              </div>
-            </form>
             <Form />
           </div>
         </div>

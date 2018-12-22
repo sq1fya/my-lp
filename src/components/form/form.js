@@ -37,47 +37,62 @@ class Form extends React.Component {
           isSubmited: true,
           error: false
         });
-        alertify.set("notifier", "position", "bottom-center");
-        alertify.success("Dzieki, za kontakt ze mna :D");
+        alertify.set("notifier", "position", "top-center");
+        alertify.success("Email wysłany");
       })
       .catch(error => {
         this.setState({
           error: true,
           isSubmited: false
         });
-        alertify.set('notifier','delay', 4);
         alertify.set("notifier", "position", "top-center");
-        alertify.error("Coś poszło nie tak, sprawdź dane");
+        alertify.error("Wypełnij wszystkie pola");
       });
   };
 
   render() {
     return (
       <div>
-        <form onSubmit={this.submitHandler}>
-          <input
-            id="textInput"
-            type="text"
-            className="form-control"
-            name="title"
-            value={this.state.title}
-            placeholder="Enter Your Title"
-            onChange={this.changeHandler}
-          />
-          <input
-            type="text"
-            className="form-control"
-            name="body"
-            value={this.state.body}
-            placeholder="Enter Email"
-            onChange={this.changeHandler}
-          />
-          <button type="submit" className="btn btn-success">
-            SUBMIT
-          </button>
+        <form
+          onSubmit={this.submitHandler}
+          className="form-box col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5 mx-auto pb-5"
+        >
+          <div className="form-group form-box--name">
+            <input
+              id="validationDefault01"
+              // id="validationDefault01" id z bootstrapa
+              type="text"
+              className="form-control name-input form-control form-control-lg"
+              name="title"
+              value={this.state.title}
+              placeholder="Imię i nazwisko / Firma"
+              onChange={this.changeHandler}
+            />
+          </div>
+          <div className="form-group form-box--email">
+            <input
+              type="email"
+              className="form-control email-input form-control form-control-lg"
+              id="exampleInputEmail1"
+              name="body"
+              aria-describedby="emailHelp"
+              value={this.state.body}
+              placeholder="Email"
+              onChange={this.changeHandler}
+            />
+          </div>
+          <div className="d-flex justify-content-center float-lg-right">
+            <button type="submit" className="btn btn-primary btn-lg">
+              Wyślij
+            </button>
+          </div>
         </form>
-        {this.state.isSubmited && <p>Form Submiter Succes </p>}
-        {this.state.error && <p>Something Error</p>}
+        <div className="containet">
+          <div className="row">
+            {this.state.isSubmited && <p>Form Submiter Succes </p>}
+            {this.state.error && <p>Something Error</p>}
+          </div>
+        </div>
       </div>
     );
   }
