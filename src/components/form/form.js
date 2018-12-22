@@ -44,7 +44,8 @@ class Form extends React.Component {
           error: true,
           isSubmited: false
         });
-        alertify.set("notifier", "position", "bottom-center");
+        alertify.set('notifier','delay', 4);
+        alertify.set("notifier", "position", "top-center");
         alertify.error("Coś poszło nie tak, sprawdź dane");
       });
   };

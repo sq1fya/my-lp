@@ -1,3 +1,6 @@
+@import "../../color.scss";
+
+
 @media only screen and (min-width: 992px) {
   .section-skills {
     .title {
@@ -27,32 +30,28 @@
 }
 
 .bg-react {
-  background-color: #61dafb;
+  background-color: $bg-react;
 }
 
 .bg-js {
-  background-color: #d6ba32;
+  background-color: $bg-js;
 }
 
 .bg-redux {
-  background-color: #764abc;
+  background-color: $bg-redux;
 }
 
 .bg-html5 {
-  background-color: #e44d26;
+  background-color: $bg-html5;
 }
 
 .bg-css3 {
-  background-color: #0170ba;
+  background-color: $bg-css3;
 }
 
 .bg-ps {
-  background-color: #001d26;
+  background-color: $bg-ps;
 }
-
-$bg-color-purple-light: #70365f;
-$bg-color-pink: #bd3c8a;
-$bg-color-blue: #114c7f;
 
 .section-skills {
   background-color: $bg-color-purple-light;
@@ -61,7 +60,6 @@ $bg-color-blue: #114c7f;
     max-width: 375px;
     background-color: $bg-color-blue;
     padding: 15px;
-    // margin-top: -11px;
     font-weight: 700;
     h3 {
       text-align: center;

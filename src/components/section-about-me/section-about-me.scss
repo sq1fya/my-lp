@@ -1,23 +1,103 @@
-// Color
-$bg-color-blue: #114c7f;
-$bg-color-light-blue: #c0d3df;
-$bg-color-pink: #bd3c8a;
-$bg-color-gray: #2e2f32;
+@import "../../color.scss";
 
-// Color End
+@media only screen and (min-width: 992px) {
+  .section-about-me.background-image {
+    height: 857px !important;
+    .background-image-media {
+      position: absolute;
+      img {
+        width: auto;
+        max-width: none;
+        margin-top: 0;
+      }
+    }
+    .navbar {
+      display: block;
+    }
+  }
 
-nav {
-  height: 170px;
+  .section-about-me {
+    .left-box {
+      .title-box {
+        .title {
+          margin-top: -35px !important;
+        }
+      }
+    }
+    .right-box {
+      margin-top: -80px !important;
+      .right-box--main {
+        border: 1px solid white;
+        .react-logo {
+        }
+        .inside-text {
+        }
+      }
+    }
+  }
+}
+
+
+// >>>>>>>>>>> global <<<<<<<<
+
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+
+// >>>>>>>>>>> global end <<<<<<<<<<
+
+// >>>>>>>>>>> header <<<<<<<<<<
+.section-about-me {
+  .nav-bar {
+    .navbar-toggler:hover {
+      border-color: $bg-color-pink !important;
+      .navbar-toggler-icon {
+        border-color: $bg-color-pink !important;
+      }
+    }
+    .navbar-toggler:focus {
+      outline: 0;
+    }
+    ul {
+      li {
+        .nav-link {
+          color: $bg-color-blue !important;
+          font-size: 16px !important;
+          font-weight: 700 !important;
+          -webkit-transition: color 0.5s ease-out;
+          -moz-transition: color 0.5s ease-out;
+          -o-transition: color 0.5s ease-out;
+          transition: color 0.5s ease-out;
+        }
+        .nav-link:hover {
+          color: $bg-color-pink !important;
+        }
+        .nav-link:focus {
+          outline: 0;
+
+        }
+      }
+    }
+  }
+  .background-image-media {
+    display: block;
+    text-align: center;
+    img {
+      max-width: 400px;
+      width: 100%;
+      margin-top: -110px;
+    }
+  }
 }
 
 .section-about-me {
-  .js {
-    background-image: url("../../gfx/JavaScript-logo.png");
-    background-size: contain;
-    height: 110px;
-    width: 110px;
-    margin: 0 -76px -38px;
-  }
+    background-repeat: no-repeat;
+    background-color: $bg-color-light-blue;
+    background-position: center;
   .left-box {
     padding: 0;
     background-color: $bg-color-blue;
@@ -59,8 +139,107 @@ nav {
         padding: 15px;
         font-size: 16px;
         font-weight: 700;
-        margin-top: -35px !important;
       }
     }
+  }
+}
+
+.js {
+  background-image: url("../../gfx/JavaScript-logo.png");
+  background-size: contain;
+  height: 110px;
+  width: 110px;
+  margin: 0 -76px -38px;
+}
+
+.section-about-me {
+  .title-box {
+    margin: 0 auto;
+    max-width: 218px;
+    font-size: 16px;
+    h6 {
+      font-size: 16px;
+      font-weight: 700;
+      background-color: $bg-color-blue;
+      text-align: center;
+      padding: 15px;
+      margin-top: -37px;
+    }
+  }
+  .right-box {
+    background-color: $bg-color-pink;
+    padding: 15px 15px 15px 15px;
+    .right-box--main {
+      border: 1px solid white;
+      .react-logo {
+        margin-top: -215px;
+        margin-left: 135px;
+        width: 450px;
+        height: 450px;
+        .App-logo {
+          animation: App-logo-spin infinite 20s linear;
+          height: 100%;
+        }
+        .react-logo-mini {
+          .App-logo-mini {
+            animation: App-logo-spin infinite 20s linear;
+          }
+        }
+      }
+      .inside-text {
+        h3 {
+          font-weight: 700;
+          font-size: 29px;
+        }
+        p {
+          font-size: 21px;
+        }
+      }
+    }
+  }
+}
+// >>>>>>>>>>> header end <<<<<<<<<<
+
+// >>>>>>>>>>> nav <<<<<<<<<<
+nav {
+  height: 170px;
+}
+
+// >>>>>>>>>>> nav end <<<<<<<<<<
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// new animation react logo
+
+.rotate-center {
+  -webkit-animation: rotate-center 20s linear infinite both;
+  animation: rotate-center 20s linear infinite both;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
