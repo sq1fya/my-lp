@@ -36,59 +36,7 @@
   }
 }
 
-// >>>>>>>>>>> global <<<<<<<<
-
-button {
-  padding: 0;
-  border: none;
-  background: none;
-}
-
-// >>>>>>>>>>> global end <<<<<<<<<<
-
 // >>>>>>>>>>> header <<<<<<<<<<
-.section-about-me {
-  .nav-bar {
-    .navbar-toggler:hover {
-      border-color: $bg-color-pink !important;
-      .navbar-toggler-icon {
-        border-color: $bg-color-pink !important;
-      }
-    }
-    .navbar-toggler:focus {
-      outline: 0;
-    }
-    ul {
-      li {
-        .nav-link {
-          color: $bg-color-blue !important;
-          font-size: 16px !important;
-          font-weight: 700 !important;
-          -webkit-transition: color 0.5s ease-out;
-          -moz-transition: color 0.5s ease-out;
-          -o-transition: color 0.5s ease-out;
-          transition: color 0.5s ease-out;
-        }
-        .nav-link:hover {
-          color: $bg-color-pink !important;
-        }
-        .nav-link:focus {
-          outline: 0;
-        }
-      }
-    }
-  }
-  .background-image-media {
-    display: block;
-    text-align: center;
-    img {
-      max-width: 400px;
-      width: 100%;
-      margin-top: -110px;
-    }
-  }
-}
-
 .section-about-me {
   background-repeat: no-repeat;
   background-color: $bg-color-light-blue;
@@ -135,6 +83,45 @@ button {
         font-size: 16px;
         font-weight: 700;
       }
+    }
+  }
+  .nav-bar {
+    .navbar-toggler:hover {
+      border-color: $bg-color-pink !important;
+      .navbar-toggler-icon {
+        border-color: $bg-color-pink !important;
+      }
+    }
+    .navbar-toggler:focus {
+      outline: 0;
+    }
+    ul {
+      li {
+        .nav-link {
+          color: $bg-color-blue !important;
+          font-size: 16px !important;
+          font-weight: 700 !important;
+          -webkit-transition: color 0.5s ease-out;
+          -moz-transition: color 0.5s ease-out;
+          -o-transition: color 0.5s ease-out;
+          transition: color 0.5s ease-out;
+        }
+        .nav-link:hover {
+          color: $bg-color-pink !important;
+        }
+        .nav-link:focus {
+          outline: 0;
+        }
+      }
+    }
+  }
+  .background-image-media {
+    display: block;
+    text-align: center;
+    img {
+      max-width: 400px;
+      width: 100%;
+      margin-top: -110px;
     }
   }
 }
