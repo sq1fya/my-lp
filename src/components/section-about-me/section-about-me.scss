@@ -1,35 +1,5 @@
 @import "../../color.scss";
 
-@media only screen and (min-width: 992px) {
-  .section-about-me.background-image {
-    height: 857px !important;
-    .background-image-media {
-      position: absolute;
-      img {
-        width: auto;
-        max-width: none;
-        margin-top: 0;
-      }
-    }
-    .navbar {
-      display: block;
-    }
-    .left-box {
-      .title-box {
-        .title {
-          margin-top: -35px !important;
-        }
-      }
-    }
-    .right-box {
-      margin-top: -80px !important;
-      .right-box--main {
-        border: 1px solid white;
-      }
-    }
-  }
-}
-
 .section-about-me {
   background-repeat: no-repeat;
   background-color: $bg-color-light-blue;
@@ -101,7 +71,6 @@
         border: 1px solid white;
         h3 {
           font-size: 29px;
-          font-weight: 700;
           margin: 0;
         }
         p {
@@ -162,7 +131,6 @@
       }
       .inside-text {
         h3 {
-          font-weight: 700;
           font-size: 29px;
         }
         p {
@@ -188,7 +156,6 @@
   -webkit-animation: rotate-center 20s linear infinite both;
   animation: rotate-center 20s linear infinite both;
 }
-
 
 @keyframes rotate-center {
   0% {

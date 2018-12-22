@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "../../gfx/logo.svg";
 import lukasz from "../../gfx/lukasz.png";
 import "./section-about-me.scss";
+import "./section-about-me-lg.scss";
 
 class SectionAboutMe extends Component {
   render() {

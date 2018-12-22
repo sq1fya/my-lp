@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./section-contact.scss";
+import "./section-contact-lg.scss";
 import Form from '../form/form';
 
 class SectionContact extends Component {

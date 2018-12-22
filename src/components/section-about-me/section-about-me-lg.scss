@@ -1,0 +1,29 @@
+@media only screen and (min-width: 992px) {
+  .section-about-me.background-image {
+    height: 857px !important;
+    .background-image-media {
+      position: absolute;
+      img {
+        width: auto;
+        max-width: none;
+        margin-top: 0;
+      }
+    }
+    .navbar {
+      display: block;
+    }
+    .left-box {
+      .title-box {
+        .title {
+          margin-top: -35px !important;
+        }
+      }
+    }
+    .right-box {
+      margin-top: -80px !important;
+      .right-box--main {
+        border: 1px solid white;
+      }
+    }
+  }
+}
