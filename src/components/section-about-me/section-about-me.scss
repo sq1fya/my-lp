@@ -15,7 +15,6 @@
       display: block;
     }
   }
-
   .section-about-me {
     .left-box {
       .title-box {
@@ -37,16 +36,13 @@
   }
 }
 
-
 // >>>>>>>>>>> global <<<<<<<<
-
 
 button {
   padding: 0;
   border: none;
   background: none;
 }
-
 
 // >>>>>>>>>>> global end <<<<<<<<<<
 
@@ -78,7 +74,6 @@ button {
         }
         .nav-link:focus {
           outline: 0;
-
         }
       }
     }
@@ -95,9 +90,9 @@ button {
 }
 
 .section-about-me {
-    background-repeat: no-repeat;
-    background-color: $bg-color-light-blue;
-    background-position: center;
+  background-repeat: no-repeat;
+  background-color: $bg-color-light-blue;
+  background-position: center;
   .left-box {
     padding: 0;
     background-color: $bg-color-blue;
