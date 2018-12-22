@@ -14,8 +14,6 @@
     .navbar {
       display: block;
     }
-  }
-  .section-about-me {
     .left-box {
       .title-box {
         .title {
@@ -27,20 +25,70 @@
       margin-top: -80px !important;
       .right-box--main {
         border: 1px solid white;
-        .react-logo {
-        }
-        .inside-text {
-        }
       }
     }
   }
 }
 
-// >>>>>>>>>>> header <<<<<<<<<<
 .section-about-me {
   background-repeat: no-repeat;
   background-color: $bg-color-light-blue;
   background-position: center;
+  .title-box {
+    margin: 0 auto;
+    max-width: 218px;
+    font-size: 16px;
+    h6 {
+      font-size: 16px;
+      font-weight: 700;
+      background-color: $bg-color-blue;
+      text-align: center;
+      padding: 15px;
+      margin-top: -37px;
+    }
+  }
+  .background-image-media {
+    display: block;
+    text-align: center;
+    img {
+      max-width: 400px;
+      width: 100%;
+      margin-top: -110px;
+    }
+  }
+  nav {
+    height: 170px;
+  }
+  .nav-bar {
+    .navbar-toggler:hover {
+      border-color: $bg-color-pink !important;
+      .navbar-toggler-icon {
+        border-color: $bg-color-pink !important;
+      }
+    }
+    .navbar-toggler:focus {
+      outline: 0;
+    }
+    ul {
+      li {
+        .nav-link {
+          color: $bg-color-blue !important;
+          font-size: 16px !important;
+          font-weight: 700 !important;
+          -webkit-transition: color 0.5s ease-out;
+          -moz-transition: color 0.5s ease-out;
+          -o-transition: color 0.5s ease-out;
+          transition: color 0.5s ease-out;
+        }
+        .nav-link:hover {
+          color: $bg-color-pink !important;
+        }
+        .nav-link:focus {
+          outline: 0;
+        }
+      }
+    }
+  }
   .left-box {
     padding: 0;
     background-color: $bg-color-blue;
@@ -85,68 +133,12 @@
       }
     }
   }
-  .nav-bar {
-    .navbar-toggler:hover {
-      border-color: $bg-color-pink !important;
-      .navbar-toggler-icon {
-        border-color: $bg-color-pink !important;
-      }
-    }
-    .navbar-toggler:focus {
-      outline: 0;
-    }
-    ul {
-      li {
-        .nav-link {
-          color: $bg-color-blue !important;
-          font-size: 16px !important;
-          font-weight: 700 !important;
-          -webkit-transition: color 0.5s ease-out;
-          -moz-transition: color 0.5s ease-out;
-          -o-transition: color 0.5s ease-out;
-          transition: color 0.5s ease-out;
-        }
-        .nav-link:hover {
-          color: $bg-color-pink !important;
-        }
-        .nav-link:focus {
-          outline: 0;
-        }
-      }
-    }
-  }
-  .background-image-media {
-    display: block;
-    text-align: center;
-    img {
-      max-width: 400px;
-      width: 100%;
-      margin-top: -110px;
-    }
-  }
-}
-
-.js {
-  background-image: url("../../gfx/JavaScript-logo.png");
-  background-size: contain;
-  height: 110px;
-  width: 110px;
-  margin: 0 -76px -38px;
-}
-
-.section-about-me {
-  .title-box {
-    margin: 0 auto;
-    max-width: 218px;
-    font-size: 16px;
-    h6 {
-      font-size: 16px;
-      font-weight: 700;
-      background-color: $bg-color-blue;
-      text-align: center;
-      padding: 15px;
-      margin-top: -37px;
-    }
+  .js {
+    background-image: url("../../gfx/JavaScript-logo.png");
+    background-size: contain;
+    height: 110px;
+    width: 110px;
+    margin: 0 -76px -38px;
   }
   .right-box {
     background-color: $bg-color-pink;
@@ -180,14 +172,8 @@
     }
   }
 }
-// >>>>>>>>>>> header end <<<<<<<<<<
 
-// >>>>>>>>>>> nav <<<<<<<<<<
-nav {
-  height: 170px;
-}
-
-// >>>>>>>>>>> nav end <<<<<<<<<<
+// animation react logo
 
 @keyframes App-logo-spin {
   from {
@@ -198,23 +184,12 @@ nav {
   }
 }
 
-// new animation react logo
-
 .rotate-center {
   -webkit-animation: rotate-center 20s linear infinite both;
   animation: rotate-center 20s linear infinite both;
 }
 
-@-webkit-keyframes rotate-center {
-  0% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
+
 @keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
