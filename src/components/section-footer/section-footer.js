@@ -5,15 +5,15 @@ class SectionFooter extends Component {
   render() {
     return (
       <section className="section-footer container-fluid">
-        <div className="row ">
-          <div className="container">
+        <div className="row">
+          <div className="container col-lg-9">
             <div className="info-box text-white row justify-content-lg-between flex-lg-nowrap flex-md-wrap flex-md-column flex-lg-row">
               <div className="info-box--name col-lg-3 col-md-10 col-sm-12 text-lg-left">
                 <p>Łukasz Górecki</p>
                 <p>React junior developer</p>
                 <hr className="d-lg-none d-md-block w-50 float-left" />
               </div>
-              <div className="info-box--contact col-lg-5 col-md-10 col-sm-12 text-lg-right">
+              <div className="info-box--contact col-lg-5 col-md-10 col-sm-12 text-lg-left">
                 <p>
                   <span>tel: </span>
                   <span><a className="text-white" href="tel:+48-515-115-750">515 115 750</a></span>
