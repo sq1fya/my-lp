@@ -79,7 +79,7 @@ class SectionAboutMe extends Component {
                         <li>- RWD</li>
                       </ul>
                     </div>
-                    <div className="js-mini bg-js d-block d-lg-none mx-auto m-0" />
+                    <div className="js-mini bg-js d-block d-lg-none" />
                   </div>
                 </div>
                 <div className="js sticky-top bg-js d-none d-lg-block" />

@@ -95,6 +95,11 @@
         background-size: contain;
         height: 50px;
         width: 50px;
+        @include media-breakpoint-down(md) {
+          margin: 0 auto;
+          margin-top: -25px;
+          margin-bottom: 15px;
+        }
       }
     }
     .title-box {
