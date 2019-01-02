@@ -68,7 +68,7 @@
     background-color: $bg-color-blue;
     .inside-text {
       font-size: 21px;
-      padding: 10px 10px 27px 10px;
+      padding: 10px 20px 27px 20px;
       @include media-breakpoint-down(md) {
         padding: 15px 15px 15px 15px;
       }
