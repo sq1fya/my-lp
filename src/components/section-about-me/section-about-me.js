@@ -8,40 +8,35 @@ class SectionAboutMe extends Component {
   render() {
     return (
       <section className="section-about-me position-relative background-image container-fluid h-auto">
-        <header className="container-fluid">
-          <div className="row">
-            <div className="container col-lg-9">
-              <div className="container p-0">
-                <nav className="nav-bar navbar d-block navbar-expand-lg navbar-light p-0 sticky-top">
-                  <button
-                    className="navbar-toggler mt-4"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarText"
-                    aria-controls="navbarText"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                  >
-                    <span className="navbar-toggler-icon" />
-                  </button>
-                  <div className="collapse navbar-collapse" id="navbarText">
-                    <ul className="navbar-nav mt-4 col-12 justify-content-end">
-                      <li className="nav-item">
-                        <button className="nav-link" href="#">
-                          Umiejętności{" "}
-                          <span className="sr-only">(current)</span>
-                        </button>
-                      </li>
-                      <li className="nav-item">
-                        <button className="nav-link" href="#">
-                          Kontakt
-                        </button>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
+        <header className="row">
+          <div className="container col-12 col-lg-9 m-md-0 m-lg-auto p-0">
+            <nav className="nav-bar navbar d-block navbar-expand-lg navbar-light sticky-top">
+              <button
+                className="navbar-toggler mt-4"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarText"
+                aria-controls="navbarText"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon" />
+              </button>
+              <div className="collapse navbar-collapse" id="navbarText">
+                <ul className="navbar-nav mt-4 col-12 ">
+                  <li className="nav-item">
+                    <button className="nav-link" href="#">
+                      Umiejętności <span className="sr-only">(current)</span>
+                    </button>
+                  </li>
+                  <li className="nav-item">
+                    <button className="nav-link" href="#">
+                      Kontakt
+                    </button>
+                  </li>
+                </ul>
               </div>
-            </div>
+            </nav>
           </div>
         </header>
         <div
@@ -56,7 +51,7 @@ class SectionAboutMe extends Component {
         >
           <img className="" src={lukasz} alt="lukasz" />
         </div>
-        <div className="row ">
+        <div className="row">
           <div className="container col-12 col-lg-9 m-md-0 m-lg-auto p-0 pl-lg-3">
             <div className="d-flex flex-column-reverse d-lg-block">
               <div className="m-0 p-0 row d-flex align-items-end">
