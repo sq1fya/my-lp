@@ -40,6 +40,9 @@
         border-color: $bg-color-pink !important;
       }
     }
+    .navbar-toggler {
+      border: none;
+    }
     .navbar-toggler:focus {
       outline: 0;
     }
