@@ -38,7 +38,7 @@ class Form extends React.Component {
           error: false
         });
         alertify.set("notifier", "position", "top-center");
-        alertify.success("Email wysłany");
+        alertify.success("Dziękuje za wiadomość");
       })
       .catch(error => {
         this.setState({
@@ -46,7 +46,7 @@ class Form extends React.Component {
           isSubmited: false
         });
         alertify.set("notifier", "position", "top-center");
-        alertify.error("Wypełnij wszystkie pola");
+        alertify.error("Coś poszło nie tak");
       });
   };
 
@@ -88,9 +88,9 @@ class Form extends React.Component {
           </div>
         </form>
         <div className="containet">
-          <div className="row">
-            {this.state.isSubmited && <p>Form Submiter Succes </p>}
-            {this.state.error && <p>Something Error</p>}
+          <div className="row justify-content-center text-white">
+            {this.state.isSubmited && <p>Wiadomość została wysłana</p>}
+            {this.state.error && <p>Nie udało się wysłać wiadomości</p>}
           </div>
         </div>
       </div>
