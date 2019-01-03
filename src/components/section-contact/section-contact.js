@@ -7,7 +7,7 @@ class SectionContact extends Component {
   render() {
     return (
       <section className="section-contact container-fluid p-0">
-        <div className="row">
+        <div className="row ml-0 mr-0">
           <div className="container">
             <div className="title text-white mt-4 col-8 col-md-6">
               <h3>Kontakt</h3>
