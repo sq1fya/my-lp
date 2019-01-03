@@ -32,6 +32,9 @@
   }
   nav {
     height: 170px;
+    @include media-breakpoint-down(md) {
+    height: 110px;
+    }
   }
   .nav-bar {
     .navbar-toggler:hover {
