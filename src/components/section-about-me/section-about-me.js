@@ -12,7 +12,7 @@ class SectionAboutMe extends Component {
           <div className="container col-12 col-lg-9 m-md-0 m-lg-auto p-0">
             <nav className="nav-bar navbar d-block navbar-expand-lg navbar-light sticky-top p-0">
               <button
-                className="navbar-toggler float-right"
+                className="navbar-toggler"
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbarText"
@@ -25,7 +25,7 @@ class SectionAboutMe extends Component {
               <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item mx-auto">
-                    <button className="nav-link mt-3 mt-lg-4" href="#">
+                    <button className="nav-link mt-5 mt-lg-4" href="#">
                       Umiejętności <span className="sr-only">(current)</span>
                     </button>
                   </li>

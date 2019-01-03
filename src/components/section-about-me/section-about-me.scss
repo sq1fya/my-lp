@@ -44,6 +44,8 @@
       }
     }
     .navbar-toggler {
+      position: absolute;
+      right: 0;
       border: none;
       margin: 20px;
     }
@@ -53,7 +55,7 @@
     .collapse {
       @include media-breakpoint-down(md) {
         width: 100%;
-        background-color: rgba($color: white, $alpha: 0.5);
+        background-color: rgba($color: white, $alpha: 0.9);
         transition: background-color 0.5s ease-out;
       }
       ul {
