@@ -3,14 +3,17 @@ import logo from "../../gfx/logo.svg";
 import lukasz from "../../gfx/lukasz.png";
 import "./section-about-me.scss";
 import "./section-about-me-lg.scss";
+import smoothscroll from 'smoothscroll-polyfill';
 
+smoothscroll.polyfill();
+document.querySelector('.hello').scrollIntoView({ behavior: 'smooth' });
 class SectionAboutMe extends Component {
   render() {
     return (
       <section className="section-about-me position-relative background-image container-fluid h-auto">
         <header className="row">
           <div className="container col-12 col-lg-9 m-md-0 m-lg-auto p-0">
-            <nav className="nav-bar navbar d-block navbar-expand-lg navbar-light sticky-top p-0">
+            <nav id="navbar-example2" className="nav-bar navbar d-block navbar-expand-lg navbar-light sticky-top p-0">
               <button
                 className="navbar-toggler"
                 type="button"
@@ -25,14 +28,15 @@ class SectionAboutMe extends Component {
               <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item mx-auto">
-                    <button className="nav-link mt-5 mt-lg-4" href="#">
+                    <a className="nav-link mt-5 mt-lg-4" href="#skills">
                       Umiejętności <span className="sr-only">(current)</span>
-                    </button>
+                    </a>
                   </li>
                   <li className="nav-item mx-auto">
-                    <button className="nav-link mt-3 mb-3 mt-lg-4" href="#">
+                    <a className="nav-link mt-3 mb-3 mt-lg-4" href="#contact">
                       Kontakt
-                    </button>
+                    </a>
+                    
                   </li>
                 </ul>
               </div>

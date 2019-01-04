@@ -10,7 +10,7 @@ class SectionContact extends Component {
         <div className="row ml-0 mr-0">
           <div className="container">
             <div className="title text-white mt-4 col-8 col-md-6">
-              <h3>Kontakt</h3>
+              <h3 id="contact">Kontakt</h3>
             </div>
             <div className="col info-box text-white pt-3">
               <h3>Jeśli jesteś zainteresowany współpracą</h3>

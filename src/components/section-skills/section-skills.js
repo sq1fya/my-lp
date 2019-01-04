@@ -6,10 +6,10 @@ class SectionSkills extends Component {
   render() {
     return (
       <section className="section-skills container-fluid">
-        <div className="row">
+        <div className="row" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
           <div className="container m-0 m-lg-auto col-12 col-lg-9">
             <div className="title mt-4 col-8 col-md-6">
-              <h3 className="text-white">Umiejętności</h3>
+              <h3 id="skills" className="text-white">Umiejętności</h3>
             </div>
             <div className="info-box row d-flex flex-wrap justify-content-between flex-column-reverse flex-lg-row pb-0 pt-4">
               <div className="left-box text-white col-12 col-md-12 col-lg-5 col-xl-4">
