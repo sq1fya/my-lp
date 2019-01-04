@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import "./section-footer.scss";
+import ReactGA from 'react-ga';
 
+ReactGA.initialize('UA-131726195-1');
+
+ReactGA.pageview('SectionFooter');
 class SectionFooter extends Component {
   render() {
     return (

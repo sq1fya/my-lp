@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import "./section-skills.scss";
 import "./section-skills-lg.scss";
+import ReactGA from 'react-ga';
 
+ReactGA.initialize('UA-131726195-1');
+
+ReactGA.pageview('SectionSkills');
 class SectionSkills extends Component {
   render() {
     return (

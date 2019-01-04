@@ -2,7 +2,11 @@ import React, { Component } from "react";
 import "./section-contact.scss";
 import "./section-contact-lg.scss";
 import Form from '../form/form';
+import ReactGA from 'react-ga';
 
+ReactGA.initialize('UA-131726195-1');
+
+ReactGA.pageview('SectionContact');
 class SectionContact extends Component {
   render() {
     return (

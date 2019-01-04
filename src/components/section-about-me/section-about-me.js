@@ -3,10 +3,12 @@ import logo from "../../gfx/logo.svg";
 import lukasz from "../../gfx/lukasz.png";
 import "./section-about-me.scss";
 import "./section-about-me-lg.scss";
-import smoothscroll from 'smoothscroll-polyfill';
+import ReactGA from 'react-ga';
 
-smoothscroll.polyfill();
-document.querySelector('.hello').scrollIntoView({ behavior: 'smooth' });
+ReactGA.initialize('UA-131726195-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
+ReactGA.pageview('SectionAboutMe');
 class SectionAboutMe extends Component {
   render() {
     return (
