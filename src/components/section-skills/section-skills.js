@@ -24,8 +24,7 @@ class SectionSkills extends Component {
                   <div className="inside-text--box">
                     <h3>Uczę się</h3>
                     <p>
-                      Nie chcę oszukiwać, jestem juniorem ale jestem ambitny i
-                      szybko się uczę
+                      jestem juniorem ale jestem ambitny i szybko przyswajam nową wiedzę
                     </p>
                     <hr className="border-white" />
                     <h3>Moim atutem</h3>
@@ -90,6 +89,19 @@ class SectionSkills extends Component {
                   </div>
                 </div>
                 <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row pl-4 pl-sm-5 pr-4 pr-sm-5 p-lg-0">
+                  <p className="col text-lg-right text-center mb-5 mb-lg-0">Bootstrap 4</p>
+                  <div className="progress col-lg-7 w-100">
+                    <div
+                      className="row progress-bar progress-bar-striped progress-bar-animated bg-bootstrap"
+                      role="progressbar"
+                      aria-valuenow="40"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style={{ width: "60%" }}
+                    />
+                  </div>
+                </div>
+                <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row pl-4 pl-sm-5 pr-4 pr-sm-5 p-lg-0">
                   <p className="col text-lg-right text-center mb-5 mb-lg-0">HTML 5</p>
                   <div className="progress col-lg-7 w-100">
                     <div
@@ -103,7 +115,7 @@ class SectionSkills extends Component {
                   </div>
                 </div>
                 <div className="skill row justify-content-center justify-content-lg-end flex-column flex-lg-row pl-4 pl-sm-5 pr-4 pr-sm-5 p-lg-0">
-                  <p className="col text-lg-right text-center mb-5 mb-lg-0">CSS3</p>
+                  <p className="col text-lg-right text-center mb-5 mb-lg-0">CSS3 / Sass</p>
                   <div className="progress col-lg-7 w-100">
                     <div
                       className="row progress-bar progress-bar-striped progress-bar-animated bg-css3"

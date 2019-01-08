@@ -5,10 +5,12 @@ import "./section-about-me.scss";
 import "./section-about-me-lg.scss";
 import ReactGA from 'react-ga';
 
+
 ReactGA.initialize('UA-131726195-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
-
 ReactGA.pageview('SectionAboutMe');
+
+
 class SectionAboutMe extends Component {
   render() {
     return (
@@ -38,7 +40,6 @@ class SectionAboutMe extends Component {
                     <a className="nav-link mt-3 mb-3 mt-lg-4" href="#contact">
                       Kontakt
                     </a>
-                    
                   </li>
                 </ul>
               </div>
@@ -109,4 +110,7 @@ class SectionAboutMe extends Component {
     );
   }
 }
+
+
+
 export default SectionAboutMe;
