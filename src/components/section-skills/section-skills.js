@@ -18,13 +18,13 @@ class SectionSkills extends Component {
             <div className="info-box row d-flex flex-wrap justify-content-between flex-column-reverse flex-lg-row pb-0 pt-4">
               <div className="left-box text-white col-12 col-md-12 col-lg-5 col-xl-4">
                 <div className="title-box justify-content-center">
-                  <h6 className="title">Jestę juniorę</h6>
+                  <h6 className="title">Jestę programistę</h6>
                 </div>
                 <div className="inside-text">
                   <div className="inside-text--box">
                     <h3>Uczę się</h3>
                     <p>
-                      jestem juniorem ale jestem ambitny i szybko przyswajam nową wiedzę
+                      jestem ambitny i szybko przyswajam nową wiedzę
                     </p>
                     <hr className="border-white" />
                     <h3>Moim atutem</h3>

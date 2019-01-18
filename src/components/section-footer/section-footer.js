@@ -14,7 +14,7 @@ class SectionFooter extends Component {
             <div className="info-box text-white row justify-content-lg-between flex-lg-nowrap flex-md-wrap flex-md-column flex-lg-row">
               <div className="info-box--name col-lg-3 col-md-10 col-sm-12 text-lg-left">
                 <p>Łukasz Górecki</p>
-                <p>React junior developer</p>
+                <p>React developer</p>
                 <hr className="d-lg-none d-md-block w-50 float-left" />
               </div>
               <div className="info-box--contact col-lg-5 col-md-10 col-sm-12 text-lg-left">

@@ -99,7 +99,7 @@ class SectionAboutMe extends Component {
                   </div>
                   <div className="inside-text text-center pb-5 pt-3 p-md-2 pb-md-4 text-xl-left pt-lg-4 pb-lg-4 pl-xl-5 pt-xl-5 pb-xl-5">
                     <h3>Łukasz Górecki</h3>
-                    <p className="mb-auto">Junior frontend developer</p>
+                    <p className="mb-auto">Frontend developer</p>
                   </div>
                 </div>
               </div>
